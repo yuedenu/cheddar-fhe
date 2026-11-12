@@ -1,0 +1,8 @@
+{
+  "images": 1000,
+  "cpp_predictions_identical_to_old": true,
+  "numpy_identical_to_old": true,
+  "polynomial_max_cpp_numpy_error": 5.134781488891349e-15,
+  "exact_relu_max_cpp_numpy_error": 1.249000902703301e-16,
+  "passed": true
+}

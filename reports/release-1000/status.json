@@ -1,0 +1,27 @@
+[
+  {
+    "name": "1000-source-40",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/release-1000/1000-source-40.jsonl",
+    "log": "/home/zijiand/cheddar/reports/release-1000/1000-source-40.log",
+    "executable_sha256": "d4cae5c905ff4a91e29eea2f5fe56034ef7613a0ad7c13f0e50b861bc164f23d",
+    "command": [
+      "/home/zijiand/cheddar/build-release/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/release-1000/1000-source-40.jsonl",
+      "--mode",
+      "full",
+      "--count",
+      "1000",
+      "--layers",
+      "10",
+      "--relu-range",
+      "16.0"
+    ],
+    "libraries_sha256": {
+      "/home/zijiand/cheddar/build-release/libcheddar_source.so": "0c20f2a044ce32c6927c94c6f925e16b0f3e514fc6baab1d4e472100ac556898"
+    }
+  }
+]

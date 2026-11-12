@@ -1,0 +1,170 @@
+[
+  {
+    "backend": "source",
+    "command": [
+      "/home/zijiand/cheddar/build-release/apps/lenet",
+      "--mode",
+      "full",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar/reports/lenet/smoke/source.jsonl"
+    ],
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/lenet/smoke/source.jsonl",
+    "images": 1,
+    "checks": 23,
+    "failed_checks": 0,
+    "activation_ranges": 4,
+    "invalid_activation_ranges": 0,
+    "executable_sha256": "47f1de554a71aac314f8fd2271d725696d509cc25e39dafa300b113abe84787f",
+    "libraries_sha256": {
+      "/home/zijiand/cheddar/build-release/libcheddar_source.so": "0c20f2a044ce32c6927c94c6f925e16b0f3e514fc6baab1d4e472100ac556898"
+    },
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 06:45:59",
+      "executable": "/home/zijiand/cheddar/build-release/apps/lenet",
+      "kind": "environment",
+      "libraries": [
+        "7f55410e7000-7f554114e000 r--p 00000000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f554114e000-7f55412d8000 r-xp 00067000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f55412d8000-7f5541813000 r--p 001f1000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f5541813000-7f5541814000 ---p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f5541814000-7f5541819000 r--p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f5541819000-7f554181c000 rw-p 00731000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so"
+      ],
+      "mode": "full",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 10.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/lenet_weights"
+    },
+    "setup": {
+      "kind": "setup",
+      "model_and_keys_seconds": 171.053184781,
+      "runtime_seconds": 1.050773961
+    },
+    "accuracy": {
+      "actual_accuracy": 0.0,
+      "classification_pass": true,
+      "count": 1,
+      "evaluated_images": 1,
+      "exact_accuracy": 0.0,
+      "invalid_images": 0,
+      "kind": "accuracy",
+      "polynomial_accuracy": 0.0,
+      "seconds": 1.029072122,
+      "top1_agreement": 1.0
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    },
+    "complete": true
+  },
+  {
+    "backend": "legacy",
+    "command": [
+      "/home/zijiand/cheddar/build-source/apps/lenet_legacy",
+      "--mode",
+      "full",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar/reports/lenet/smoke/legacy.jsonl"
+    ],
+    "returncode": 2,
+    "report": "/home/zijiand/cheddar/reports/lenet/smoke/legacy.jsonl",
+    "images": 1,
+    "checks": 23,
+    "failed_checks": 9,
+    "activation_ranges": 4,
+    "invalid_activation_ranges": 0,
+    "executable_sha256": "e5a39e232f241a81e66769a379a4dc88248122c754c68fdbfa5a37b26643262b",
+    "libraries_sha256": {
+      "/home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so": "5714ed333ffa7cc8a7aec9b0ecfa0520a48376b24942afad5dd7449ad67a7aa4"
+    },
+    "environment": {
+      "backend": "legacy-parfuse",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 06:46:01",
+      "executable": "/home/zijiand/cheddar/build-source/apps/lenet_legacy",
+      "kind": "environment",
+      "libraries": [
+        "7f200409f000-7f20040d1000 r--p 00000000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f20040d1000-7f2004242000 r-xp 00032000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f2004242000-7f200602f000 r--p 001a3000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f200602f000-7f2006030000 ---p 01f90000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f2006030000-7f2006034000 r--p 01f90000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f2006034000-7f2006037000 rw-p 01f94000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so"
+      ],
+      "mode": "full",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 10.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/lenet_weights"
+    },
+    "setup": {
+      "kind": "setup",
+      "model_and_keys_seconds": 148.385574466,
+      "runtime_seconds": 0.881365233
+    },
+    "accuracy": {
+      "actual_accuracy": 0.0,
+      "classification_pass": true,
+      "count": 1,
+      "evaluated_images": 1,
+      "exact_accuracy": 0.0,
+      "invalid_images": 0,
+      "kind": "accuracy",
+      "polynomial_accuracy": 0.0,
+      "seconds": 1.039054914,
+      "top1_agreement": 1.0
+    },
+    "summary": {
+      "failed_comparisons": 9,
+      "kind": "summary",
+      "pass": false
+    },
+    "complete": true
+  }
+]

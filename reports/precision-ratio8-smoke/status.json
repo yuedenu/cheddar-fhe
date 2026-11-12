@@ -1,0 +1,24 @@
+[
+  {
+    "name": "smoke-source-30",
+    "returncode": 2,
+    "report": "/home/zijiand/cheddar/reports/precision-ratio8-smoke/smoke-source-30.jsonl",
+    "log": "/home/zijiand/cheddar/reports/precision-ratio8-smoke/smoke-source-30.log",
+    "executable_sha256": "aff4b01d6de823655d63b787087506a1de9073e59f5a780f66e8f80f593b1490",
+    "command": [
+      "/home/zijiand/cheddar/build-final/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar/reports/precision-ratio8-parameters/resnetparam_30.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/precision-ratio8-smoke/smoke-source-30.jsonl",
+      "--mode",
+      "full",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10"
+    ]
+  }
+]

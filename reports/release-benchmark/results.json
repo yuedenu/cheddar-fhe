@@ -1,0 +1,510 @@
+[
+  {
+    "name": "benchmark-source-B10",
+    "backend": "source",
+    "relu_range": 10.0,
+    "command": [
+      "/home/zijiand/cheddar/build-release/apps/resnet",
+      "--mode",
+      "benchmark",
+      "--count",
+      "1",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "--relu-range",
+      "10.0",
+      "--start",
+      "0",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar/reports/release-benchmark/benchmark-source-B10.jsonl"
+    ],
+    "returncode": 0,
+    "timing_valid": true,
+    "report": "/home/zijiand/cheddar/reports/release-benchmark/benchmark-source-B10.jsonl",
+    "device_before": {
+      "returncode": 0,
+      "stdout": "name, uuid, driver_version, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB]\nNVIDIA GeForce RTX 4090, GPU-696ac48d-d9c4-bd19-b4b5-da63b8714926, 610.43.02, 40, 210 MHz, 405 MHz, 23.33 W, 128 MiB\n",
+      "stderr": ""
+    },
+    "device_after": {
+      "returncode": 0,
+      "stdout": "name, uuid, driver_version, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB]\nNVIDIA GeForce RTX 4090, GPU-696ac48d-d9c4-bd19-b4b5-da63b8714926, 610.43.02, 58, 2745 MHz, 10501 MHz, 190.18 W, 758 MiB\n",
+      "stderr": ""
+    },
+    "executable_sha256": "d4cae5c905ff4a91e29eea2f5fe56034ef7613a0ad7c13f0e50b861bc164f23d",
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 03:03:54",
+      "executable": "/home/zijiand/cheddar/build-release/apps/resnet",
+      "kind": "environment",
+      "libraries": [
+        "7fc21b9bd000-7fc21ba24000 r--p 00000000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fc21ba24000-7fc21bbae000 r-xp 00067000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fc21bbae000-7fc21c0e9000 r--p 001f1000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fc21c0e9000-7fc21c0ea000 ---p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fc21c0ea000-7fc21c0ef000 r--p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fc21c0ef000-7fc21c0f2000 rw-p 00731000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so"
+      ],
+      "mode": "benchmark",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 10.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/weights"
+    },
+    "benchmark_setup": {
+      "image": 0,
+      "kind": "benchmark_setup",
+      "label": 3,
+      "model_and_keys_seconds": 335.332956047,
+      "repeats": 10,
+      "runtime_seconds": 0.85290593,
+      "timing": "synchronized steady_clock wall time; same encrypted graph; no plaintext reference, intermediate decryption or report I/O in inference interval",
+      "warmup": 2
+    },
+    "benchmark": {
+      "correct": 10,
+      "decrypt_decode": {
+        "max_seconds": 0.000297875,
+        "mean_seconds": 0.0002662109,
+        "median_seconds": 0.000265427,
+        "min_seconds": 0.000253584,
+        "samples": 10,
+        "stddev_seconds": 1.2271177225107626e-05
+      },
+      "encode_encrypt": {
+        "max_seconds": 0.044499597,
+        "mean_seconds": 0.043218794500000005,
+        "median_seconds": 0.0430084985,
+        "min_seconds": 0.042529463,
+        "samples": 10,
+        "stddev_seconds": 0.0005260254157867752
+      },
+      "finite": true,
+      "image": 0,
+      "inference": {
+        "max_seconds": 0.934694177,
+        "mean_seconds": 0.934148206,
+        "median_seconds": 0.934167796,
+        "min_seconds": 0.933523231,
+        "samples": 10,
+        "stddev_seconds": 0.0003702124809921934
+      },
+      "kind": "benchmark",
+      "polynomial_agreement": 10,
+      "repeats": 10,
+      "total": {
+        "max_seconds": 0.979229462,
+        "mean_seconds": 0.9776332114,
+        "median_seconds": 0.9774588935,
+        "min_seconds": 0.9769006060000001,
+        "samples": 10,
+        "stddev_seconds": 0.0006939013189490664
+      },
+      "warmup": 2
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    },
+    "libraries_sha256": {
+      "/home/zijiand/cheddar/build-release/libcheddar_source.so": "0c20f2a044ce32c6927c94c6f925e16b0f3e514fc6baab1d4e472100ac556898"
+    }
+  },
+  {
+    "name": "benchmark-legacy-B10",
+    "backend": "legacy",
+    "relu_range": 10.0,
+    "command": [
+      "/home/zijiand/cheddar/build-source/apps/resnet_legacy",
+      "--mode",
+      "benchmark",
+      "--count",
+      "1",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "--relu-range",
+      "10.0",
+      "--start",
+      "0",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar/reports/release-benchmark/benchmark-legacy-B10.jsonl"
+    ],
+    "returncode": 2,
+    "timing_valid": true,
+    "report": "/home/zijiand/cheddar/reports/release-benchmark/benchmark-legacy-B10.jsonl",
+    "device_before": {
+      "returncode": 0,
+      "stdout": "name, uuid, driver_version, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB]\nNVIDIA GeForce RTX 4090, GPU-696ac48d-d9c4-bd19-b4b5-da63b8714926, 610.43.02, 58, 2745 MHz, 10501 MHz, 160.86 W, 758 MiB\n",
+      "stderr": ""
+    },
+    "device_after": {
+      "returncode": 0,
+      "stdout": "name, uuid, driver_version, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB]\nNVIDIA GeForce RTX 4090, GPU-696ac48d-d9c4-bd19-b4b5-da63b8714926, 610.43.02, 61, 2745 MHz, 10501 MHz, 246.73 W, 5010 MiB\n",
+      "stderr": ""
+    },
+    "executable_sha256": "540bc1a73073dc3f289dbddc14659a748ce6b891afe0750f391160b8583c96fd",
+    "environment": {
+      "backend": "legacy-parfuse",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 03:02:54",
+      "executable": "/home/zijiand/cheddar/build-source/apps/resnet_legacy",
+      "kind": "environment",
+      "libraries": [
+        "7f6e1a9ef000-7f6e1aa21000 r--p 00000000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f6e1aa21000-7f6e1ab92000 r-xp 00032000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f6e1ab92000-7f6e1c97f000 r--p 001a3000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f6e1c97f000-7f6e1c980000 ---p 01f90000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f6e1c980000-7f6e1c984000 r--p 01f90000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f6e1c984000-7f6e1c987000 rw-p 01f94000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so"
+      ],
+      "mode": "benchmark",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 10.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/weights"
+    },
+    "benchmark_setup": {
+      "image": 0,
+      "kind": "benchmark_setup",
+      "label": 3,
+      "model_and_keys_seconds": 331.699590792,
+      "repeats": 10,
+      "runtime_seconds": 0.822849719,
+      "timing": "synchronized steady_clock wall time; same encrypted graph; no plaintext reference, intermediate decryption or report I/O in inference interval",
+      "warmup": 2
+    },
+    "benchmark": {
+      "correct": 10,
+      "decrypt_decode": {
+        "max_seconds": 0.000830134,
+        "mean_seconds": 0.0005250617999999999,
+        "median_seconds": 0.0005564245,
+        "min_seconds": 0.000264377,
+        "samples": 10,
+        "stddev_seconds": 0.00015356192579269118
+      },
+      "encode_encrypt": {
+        "max_seconds": 0.043712979,
+        "mean_seconds": 0.04287982049999999,
+        "median_seconds": 0.04281274,
+        "min_seconds": 0.042415123,
+        "samples": 10,
+        "stddev_seconds": 0.0003841405873570901
+      },
+      "finite": true,
+      "image": 0,
+      "inference": {
+        "max_seconds": 1.18542869,
+        "mean_seconds": 1.1472852616,
+        "median_seconds": 1.1793754865000001,
+        "min_seconds": 1.071340288,
+        "samples": 10,
+        "stddev_seconds": 0.044964356361724044
+      },
+      "kind": "benchmark",
+      "polynomial_agreement": 10,
+      "repeats": 10,
+      "total": {
+        "max_seconds": 1.229378924,
+        "mean_seconds": 1.1906901439,
+        "median_seconds": 1.2225401210000002,
+        "min_seconds": 1.114856628,
+        "samples": 10,
+        "stddev_seconds": 0.04499009380693377
+      },
+      "warmup": 2
+    },
+    "summary": {
+      "failed_comparisons": 108,
+      "kind": "summary",
+      "pass": false
+    },
+    "libraries_sha256": {
+      "/home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so": "5714ed333ffa7cc8a7aec9b0ecfa0520a48376b24942afad5dd7449ad67a7aa4"
+    }
+  },
+  {
+    "name": "benchmark-legacy-B16",
+    "backend": "legacy",
+    "relu_range": 16.0,
+    "command": [
+      "/home/zijiand/cheddar/build-source/apps/resnet_legacy",
+      "--mode",
+      "benchmark",
+      "--count",
+      "1",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "--relu-range",
+      "16.0",
+      "--start",
+      "0",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar/reports/release-benchmark/benchmark-legacy-B16.jsonl"
+    ],
+    "returncode": 2,
+    "timing_valid": true,
+    "report": "/home/zijiand/cheddar/reports/release-benchmark/benchmark-legacy-B16.jsonl",
+    "device_before": {
+      "returncode": 0,
+      "stdout": "name, uuid, driver_version, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB]\nNVIDIA GeForce RTX 4090, GPU-696ac48d-d9c4-bd19-b4b5-da63b8714926, 610.43.02, 60, 2745 MHz, 10501 MHz, 187.01 W, 5010 MiB\n",
+      "stderr": ""
+    },
+    "device_after": {
+      "returncode": 0,
+      "stdout": "name, uuid, driver_version, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB]\nNVIDIA GeForce RTX 4090, GPU-696ac48d-d9c4-bd19-b4b5-da63b8714926, 610.43.02, 64, 2745 MHz, 10501 MHz, 275.94 W, 3964 MiB\n",
+      "stderr": ""
+    },
+    "executable_sha256": "540bc1a73073dc3f289dbddc14659a748ce6b891afe0750f391160b8583c96fd",
+    "environment": {
+      "backend": "legacy-parfuse",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 03:02:54",
+      "executable": "/home/zijiand/cheddar/build-source/apps/resnet_legacy",
+      "kind": "environment",
+      "libraries": [
+        "7f8bbff56000-7f8bbff88000 r--p 00000000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f8bbff88000-7f8bc00f9000 r-xp 00032000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f8bc00f9000-7f8bc1ee6000 r--p 001a3000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f8bc1ee6000-7f8bc1ee7000 ---p 01f90000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f8bc1ee7000-7f8bc1eeb000 r--p 01f90000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f8bc1eeb000-7f8bc1eee000 rw-p 01f94000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so"
+      ],
+      "mode": "benchmark",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 16.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/weights"
+    },
+    "benchmark_setup": {
+      "image": 0,
+      "kind": "benchmark_setup",
+      "label": 3,
+      "model_and_keys_seconds": 270.87007583,
+      "repeats": 10,
+      "runtime_seconds": 0.659337569,
+      "timing": "synchronized steady_clock wall time; same encrypted graph; no plaintext reference, intermediate decryption or report I/O in inference interval",
+      "warmup": 2
+    },
+    "benchmark": {
+      "correct": 10,
+      "decrypt_decode": {
+        "max_seconds": 0.000627803,
+        "mean_seconds": 0.0005461571000000001,
+        "median_seconds": 0.000554595,
+        "min_seconds": 0.000336305,
+        "samples": 10,
+        "stddev_seconds": 7.620769994226306e-05
+      },
+      "encode_encrypt": {
+        "max_seconds": 0.05179369,
+        "mean_seconds": 0.043794927500000004,
+        "median_seconds": 0.0425819325,
+        "min_seconds": 0.042328584,
+        "samples": 10,
+        "stddev_seconds": 0.002750057359782275
+      },
+      "finite": true,
+      "image": 0,
+      "inference": {
+        "max_seconds": 1.290240819,
+        "mean_seconds": 1.1915569417,
+        "median_seconds": 1.1799534205,
+        "min_seconds": 1.159499775,
+        "samples": 10,
+        "stddev_seconds": 0.03511572665768755
+      },
+      "kind": "benchmark",
+      "polynomial_agreement": 10,
+      "repeats": 10,
+      "total": {
+        "max_seconds": 1.333290407,
+        "mean_seconds": 1.2358980263000001,
+        "median_seconds": 1.224714483,
+        "min_seconds": 1.202375782,
+        "samples": 10,
+        "stddev_seconds": 0.034700114022590774
+      },
+      "warmup": 2
+    },
+    "summary": {
+      "failed_comparisons": 108,
+      "kind": "summary",
+      "pass": false
+    },
+    "libraries_sha256": {
+      "/home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so": "5714ed333ffa7cc8a7aec9b0ecfa0520a48376b24942afad5dd7449ad67a7aa4"
+    }
+  },
+  {
+    "name": "benchmark-source-B16",
+    "backend": "source",
+    "relu_range": 16.0,
+    "command": [
+      "/home/zijiand/cheddar/build-release/apps/resnet",
+      "--mode",
+      "benchmark",
+      "--count",
+      "1",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "--relu-range",
+      "16.0",
+      "--start",
+      "0",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar/reports/release-benchmark/benchmark-source-B16.jsonl"
+    ],
+    "returncode": 0,
+    "timing_valid": true,
+    "report": "/home/zijiand/cheddar/reports/release-benchmark/benchmark-source-B16.jsonl",
+    "device_before": {
+      "returncode": 0,
+      "stdout": "name, uuid, driver_version, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB]\nNVIDIA GeForce RTX 4090, GPU-696ac48d-d9c4-bd19-b4b5-da63b8714926, 610.43.02, 64, 2745 MHz, 10501 MHz, 277.21 W, 3964 MiB\n",
+      "stderr": ""
+    },
+    "device_after": {
+      "returncode": 0,
+      "stdout": "name, uuid, driver_version, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB]\nNVIDIA GeForce RTX 4090, GPU-696ac48d-d9c4-bd19-b4b5-da63b8714926, 610.43.02, 63, 2745 MHz, 10501 MHz, 261.98 W, 7766 MiB\n",
+      "stderr": ""
+    },
+    "executable_sha256": "d4cae5c905ff4a91e29eea2f5fe56034ef7613a0ad7c13f0e50b861bc164f23d",
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 03:03:54",
+      "executable": "/home/zijiand/cheddar/build-release/apps/resnet",
+      "kind": "environment",
+      "libraries": [
+        "7f74293ba000-7f7429421000 r--p 00000000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f7429421000-7f74295ab000 r-xp 00067000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f74295ab000-7f7429ae6000 r--p 001f1000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f7429ae6000-7f7429ae7000 ---p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f7429ae7000-7f7429aec000 r--p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f7429aec000-7f7429aef000 rw-p 00731000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so"
+      ],
+      "mode": "benchmark",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 16.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/weights"
+    },
+    "benchmark_setup": {
+      "image": 0,
+      "kind": "benchmark_setup",
+      "label": 3,
+      "model_and_keys_seconds": 301.063581121,
+      "repeats": 10,
+      "runtime_seconds": 0.934281859,
+      "timing": "synchronized steady_clock wall time; same encrypted graph; no plaintext reference, intermediate decryption or report I/O in inference interval",
+      "warmup": 2
+    },
+    "benchmark": {
+      "correct": 10,
+      "decrypt_decode": {
+        "max_seconds": 0.000653467,
+        "mean_seconds": 0.0004568221000000001,
+        "median_seconds": 0.000448618,
+        "min_seconds": 0.000322311,
+        "samples": 10,
+        "stddev_seconds": 0.00012704459657494291
+      },
+      "encode_encrypt": {
+        "max_seconds": 0.04350558,
+        "mean_seconds": 0.0428209301,
+        "median_seconds": 0.0427205,
+        "min_seconds": 0.042320764,
+        "samples": 10,
+        "stddev_seconds": 0.00034305541419556444
+      },
+      "finite": true,
+      "image": 0,
+      "inference": {
+        "max_seconds": 1.165426212,
+        "mean_seconds": 1.0957001805,
+        "median_seconds": 1.0985021405,
+        "min_seconds": 1.004746176,
+        "samples": 10,
+        "stddev_seconds": 0.04283562469980479
+      },
+      "kind": "benchmark",
+      "polynomial_agreement": 10,
+      "repeats": 10,
+      "total": {
+        "max_seconds": 1.209155086,
+        "mean_seconds": 1.1389779327,
+        "median_seconds": 1.1416163185,
+        "min_seconds": 1.0477204070000001,
+        "samples": 10,
+        "stddev_seconds": 0.04304575555915039
+      },
+      "warmup": 2
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    },
+    "libraries_sha256": {
+      "/home/zijiand/cheddar/build-release/libcheddar_source.so": "0c20f2a044ce32c6927c94c6f925e16b0f3e514fc6baab1d4e472100ac556898"
+    }
+  }
+]

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="15" failures="15" disabled="0" errors="0" time="0.022" timestamp="2026-10-30T06:35:57.954" name="AllTests">
+  <testsuite name="Cheddar/Testbed32" tests="15" failures="15" disabled="0" skipped="0" errors="0" time="0.022" timestamp="2026-10-30T06:35:57.954">
+    <testcase name="EncodeDecode/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="10" status="run" result="completed" time="0.007" timestamp="2026-10-30T06:35:57.954" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="EncodeEncryptDecryptDecode/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="27" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.961" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="CtAddCt/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="44" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.962" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="CtAddPt/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="72" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.963" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="CtAddConst/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="101" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.964" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="CtSubCt/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="131" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.965" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="CtSubPt/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="159" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.967" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="CtSubConst/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="188" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.968" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="NegCt/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="218" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.969" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="CtMultPt/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="242" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.970" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="CtMultConst/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="272" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.971" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="CtMultImaginaryUnit/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="303" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.972" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="HMult/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="327" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.973" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="HRot/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="376" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.974" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+    <testcase name="HConj/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/BasicTest.cpp" line="401" status="run" result="completed" time="0.001" timestamp="2026-10-30T06:35:57.975" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

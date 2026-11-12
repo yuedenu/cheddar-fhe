@@ -1,0 +1,13 @@
+{
+  "resnet": {
+    "valid": true,
+    "original_median_seconds": 0.93015291,
+    "migrated_median_seconds": 1.386863993,
+    "change_percent": 49.10064550569433,
+    "original_stddev_seconds": 0.2594872576797052,
+    "migrated_stddev_seconds": 0.07889006060812755
+  },
+  "lenet": {
+    "valid": false
+  }
+}

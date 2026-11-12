@@ -1,0 +1,8 @@
+{
+  "historical_files_checked": 70,
+  "historical_files_changed": [],
+  "modified_upstream_files": [
+    "src/extension/Hoist.cu",
+    "include/extension/Hoist.h"
+  ]
+}

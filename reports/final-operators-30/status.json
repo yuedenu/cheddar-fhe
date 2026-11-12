@@ -1,0 +1,24 @@
+[
+  {
+    "name": "operators-source-30",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/final-operators-30/operators-source-30.jsonl",
+    "log": "/home/zijiand/cheddar/reports/final-operators-30/operators-source-30.log",
+    "executable_sha256": "839469d6ea2138d9806b153e5b367357ded4ffe1744220b23b31dab16e139c02",
+    "command": [
+      "/home/zijiand/cheddar/build-final/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_30.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/final-operators-30/operators-source-30.jsonl",
+      "--mode",
+      "ops",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10"
+    ]
+  }
+]

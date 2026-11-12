@@ -1,0 +1,24 @@
+[
+  {
+    "name": "operators-source-30",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/rotation-precision30-operators/operators-source-30.jsonl",
+    "log": "/home/zijiand/cheddar/reports/rotation-precision30-operators/operators-source-30.log",
+    "executable_sha256": "9fbc075804b0465ff3d3b79112642e28d4a1c07910c74998a2f9f39d0449a640",
+    "command": [
+      "/home/zijiand/cheddar/build-final/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_30.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/rotation-precision30-operators/operators-source-30.jsonl",
+      "--mode",
+      "ops",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10"
+    ]
+  }
+]

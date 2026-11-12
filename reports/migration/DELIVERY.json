@@ -1,0 +1,54 @@
+{
+  "migration_complete": true,
+  "fresh_build_passed": true,
+  "functional_equivalence_passed": true,
+  "performance_equivalence_confirmed": false,
+  "status": "Migration and functional verification complete; performance equivalence unconfirmed.",
+  "source_directory_preserved": true,
+  "destination": "/home/zijiand/cheddar-fhe",
+  "build": "build-release",
+  "default_library": "build-release/libcheddar_source.so",
+  "source_files_and_assets_identical": true,
+  "model_results": {
+    "resnet": {
+      "images": 1000,
+      "accuracy": 0.925,
+      "matching_previous_predictions": 1000,
+      "numerical_checks": 1990,
+      "failed_numerical_checks": 0
+    },
+    "lenet": {
+      "images": 1000,
+      "accuracy": 0.09,
+      "matching_previous_predictions": 1000,
+      "numerical_checks": 1230,
+      "failed_numerical_checks": 0
+    }
+  },
+  "paired_performance": {
+    "resnet": {
+      "valid": true,
+      "original_median_seconds": 0.93015291,
+      "migrated_median_seconds": 1.386863993,
+      "change_percent": 49.10064550569433,
+      "original_stddev_seconds": 0.2594872576797052,
+      "migrated_stddev_seconds": 0.07889006060812755
+    },
+    "lenet": {
+      "valid": false
+    }
+  },
+  "limits": [
+    "LeNet archived weights still classify all 1000 images as class 4; 9% is the existing plaintext and FHE baseline.",
+    "Initial LeNet migration run failed with CUDA OOM; unchanged code passed on isolated retry.",
+    "Consecutive timing was variable; original-directory LeNet benchmark terminated with SIGBUS. Performance equivalence is not confirmed."
+  ],
+  "evidence": {
+    "validation": "VALIDATION.md",
+    "functional": "RESULT.json",
+    "migration_manifest": "manifest.json",
+    "asset_audit": "final-asset-audit.json",
+    "build_audit": "asset-and-build-audit.json",
+    "timing": "paired-performance/results.json"
+  }
+}

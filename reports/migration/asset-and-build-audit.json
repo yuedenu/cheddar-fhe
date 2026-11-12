@@ -1,0 +1,44 @@
+{
+  "files_checked": 5641,
+  "copied_file_counts": {
+    "CMakeLists.txt": 1,
+    "LICENSE": 1,
+    "README.md": 1,
+    "apps": 10,
+    "data": 65,
+    "docs": 3,
+    "include": 39,
+    "src": 25,
+    "scripts": 8,
+    "tests": 4,
+    "third_party": 5070,
+    "unittest": 24,
+    "reference": 5,
+    "reports": 229,
+    "legacy": 156
+  },
+  "changed_after_copy": [
+    "README.md"
+  ],
+  "expected_documentation_changes": [
+    "README.md"
+  ],
+  "unexpected_changes": [],
+  "source_changes_since_copy": [],
+  "symlinks": [
+    {
+      "path": "legacy/original-layout/lib/libcheddar.so",
+      "target": "parfuse/libcheddar_parfuse.so",
+      "inside_project": true,
+      "exists": true
+    }
+  ],
+  "no_old_root_in_build_graph": true,
+  "no_legacy_in_build_graph": true,
+  "legacy_reference_off": true,
+  "loaded_libraries": {
+    "resnet": "\tlinux-vdso.so.1 (0x00007ffd13c8c000)\n\tlibcheddar_source.so => /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so (0x00007eff807e4000)\n\tlibcudart.so.11.0 => /usr/local/cuda-11.8/lib64/libcudart.so.11.0 (0x00007eff80400000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007eff807c2000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007eff801d4000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007eff806d9000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007eff806b9000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007eff7ffab000)\n\tlibtommath.so.1 => /lib/x86_64-linux-gnu/libtommath.so.1 (0x00007eff7ff8d000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007eff80fd1000)\n\tlibdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007eff806b4000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007eff806af000)\n\tlibrt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007eff806a8000)\n",
+    "lenet": "\tlinux-vdso.so.1 (0x00007ffe0a4f0000)\n\tlibcheddar_source.so => /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so (0x00007f2d5f732000)\n\tlibcudart.so.11.0 => /usr/local/cuda-11.8/lib64/libcudart.so.11.0 (0x00007f2d5f400000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007f2d5f710000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f2d5f1d4000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f2d5f0ed000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f2d5f6ee000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f2d5eec4000)\n\tlibtommath.so.1 => /lib/x86_64-linux-gnu/libtommath.so.1 (0x00007f2d5f6d0000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f2d5ff1f000)\n\tlibdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f2d5f6cb000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f2d5f6c6000)\n\tlibrt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007f2d5f6bf000)\n"
+  },
+  "all_checks_passed": true
+}

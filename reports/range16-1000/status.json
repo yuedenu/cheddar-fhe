@@ -1,0 +1,51 @@
+[
+  {
+    "name": "1000-source-40",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/range16-1000/1000-source-40.jsonl",
+    "log": "/home/zijiand/cheddar/reports/range16-1000/1000-source-40.log",
+    "executable_sha256": "af7b4e4e61fc445b01b91cd179a91fad4d53ea537b1097a85d2488ae319eeec9",
+    "command": [
+      "/home/zijiand/cheddar/build-clean/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/range16-1000/1000-source-40.jsonl",
+      "--mode",
+      "full",
+      "--count",
+      "1000",
+      "--layers",
+      "10",
+      "--relu-range",
+      "16.0"
+    ]
+  },
+  {
+    "name": "1000-legacy-40",
+    "returncode": 2,
+    "report": "/home/zijiand/cheddar/reports/range16-1000/1000-legacy-40.jsonl",
+    "log": "/home/zijiand/cheddar/reports/range16-1000/1000-legacy-40.log",
+    "executable_sha256": "fcb07a6257b1631b0353fa1bb8397b92034e80585c3f5e03a1a1dfa8b51fc091",
+    "command": [
+      "/home/zijiand/cheddar/build-source/apps/resnet_legacy",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/range16-1000/1000-legacy-40.jsonl",
+      "--mode",
+      "full",
+      "--count",
+      "1000",
+      "--layers",
+      "10",
+      "--relu-range",
+      "16.0"
+    ]
+  },
+  {
+    "name": "comparison-40",
+    "returncode": 2,
+    "report": "/home/zijiand/cheddar/reports/range16-1000/1000-comparison-40.json"
+  }
+]

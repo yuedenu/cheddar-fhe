@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "original": {
+      ".text": {
+        "sha256": "8ed00b0b7574b9de90792c6aa9c68510fa8be24915208e46982513598bd1af50",
+        "bytes": 1576866
+      },
+      ".nv_fatbin": {
+        "sha256": "347fc9e702cda1ea06750ce453b0ce99b24c74685cd326857514e54f68f35ede",
+        "bytes": 5155248
+      }
+    },
+    "migrated": {
+      ".text": {
+        "sha256": "cc94edad23bd4cf84ea518f9f11b7713c615311c5693360a8e180f9d1f116c95",
+        "bytes": 1576866
+      },
+      ".nv_fatbin": {
+        "sha256": "9f12b9b572e0e84f330af9d18b9a874b42e4e71f0719444ef5ff182356cf7b04",
+        "bytes": 5155248
+      }
+    }
+  },
+  "identical_device_fatbin": false,
+  "identical_host_text": false
+}

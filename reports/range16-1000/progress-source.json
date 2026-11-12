@@ -1,0 +1,45 @@
+[
+  {
+    "report": "/home/zijiand/cheddar/reports/range16-1000/1000-source-40.jsonl",
+    "complete": false,
+    "passed": false,
+    "images": 475,
+    "checks": 1465,
+    "failed_checks": 0,
+    "activation_ranges": 9041,
+    "invalid_activation_ranges": 0,
+    "invalid_images": 0,
+    "max_logit_error": 0.0006515812682359456,
+    "max_layer_error": 0.00012141352649730486,
+    "failures": [],
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1000,
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 16 2026 02:08:40",
+      "executable": "/home/zijiand/cheddar/build-clean/apps/resnet",
+      "kind": "environment",
+      "libraries": [
+        "7fb5db585000-7fb5db5eb000 r--p 00000000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7fb5db5eb000-7fb5db774000 r-xp 00066000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7fb5db774000-7fb5dbcaf000 r--p 001ef000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7fb5dbcaf000-7fb5dbcb0000 ---p 0072a000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7fb5dbcb0000-7fb5dbcb5000 r--p 0072a000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7fb5dbcb5000-7fb5dbcb8000 rw-p 0072f000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so"
+      ],
+      "mode": "full",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 16.0,
+      "start": 0
+    },
+    "last_image": 474
+  }
+]

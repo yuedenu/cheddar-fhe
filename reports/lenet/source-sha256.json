@@ -1,0 +1,10 @@
+{
+  "CMakeLists.txt": "b2c6cf280aa631b19d6e3cda1395dd3815951eb75590a69de6a9dd61a9a3a91e",
+  "apps/CMakeLists.txt": "c02e29974e157ec7728d48b700787dffccb6793b36901a4ef7a1e823ed532835",
+  "include/extension/SpatialLayout.h": "178dca5abad6d2563b51fb7bf66c903479a991ca8981c8b298bf1f78830ba13d",
+  "tests/spatial_layout_test.cpp": "1606365c368950d923f23897ffa7111a536f0707c973891142eae1151b393e8f",
+  "apps/lenet/Model.h": "7edc9f3060f07bda3a52bf34937bec8e20b59ea7d3b0dc731abd9d840545600d",
+  "apps/lenet/main.cpp": "055c596633bf58ef9fcde657cb728d0c50b085e7ee6951a34ed244270309507d",
+  "scripts/lenet_validate.py": "ffc87bca46b022c737cf20834ff7a7efc164b10d6b9aae1a4121ca7b597d0bae",
+  "scripts/lenet_precheck.py": "b3d0b2e2eeb06d0dfdbc976dc61ba955d43eac7fcd52c1fbc60eecc12c5ef5d9"
+}

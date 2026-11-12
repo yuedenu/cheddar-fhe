@@ -1,0 +1,46 @@
+[
+  {
+    "name": "smoke-source-30",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/deferred-rescale-smoke/smoke-source-30.jsonl",
+    "log": "/home/zijiand/cheddar/reports/deferred-rescale-smoke/smoke-source-30.log",
+    "executable_sha256": "ca82de7d624b600d84ab7bdcd8c46cb6d979fe3166a2ed0411c5b8248fa52c9b",
+    "command": [
+      "/home/zijiand/cheddar/build-final/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_30.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/deferred-rescale-smoke/smoke-source-30.jsonl",
+      "--mode",
+      "full",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10"
+    ]
+  },
+  {
+    "name": "smoke-source-40",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/deferred-rescale-smoke/smoke-source-40.jsonl",
+    "log": "/home/zijiand/cheddar/reports/deferred-rescale-smoke/smoke-source-40.log",
+    "executable_sha256": "ca82de7d624b600d84ab7bdcd8c46cb6d979fe3166a2ed0411c5b8248fa52c9b",
+    "command": [
+      "/home/zijiand/cheddar/build-final/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/deferred-rescale-smoke/smoke-source-40.jsonl",
+      "--mode",
+      "full",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10"
+    ]
+  }
+]

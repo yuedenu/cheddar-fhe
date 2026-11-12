@@ -1,0 +1,10 @@
+{
+  "legacy_reference_off": true,
+  "no_legacy_build_dependency": true,
+  "no_old_root_dependency": true,
+  "new_library_loaded": true,
+  "no_old_library_loaded": true,
+  "new_library_sha256": "0c20f2a044ce32c6927c94c6f925e16b0f3e514fc6baab1d4e472100ac556898",
+  "resnet_sha256": "d4cae5c905ff4a91e29eea2f5fe56034ef7613a0ad7c13f0e50b861bc164f23d",
+  "resnet_acc_sha256": "5d584db81cc5cc9344b7882bd7c78ef82f45fd15bc1b2eb7c54c394d92fab2c3"
+}

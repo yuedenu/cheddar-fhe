@@ -1,0 +1,74 @@
+[
+  {
+    "report": "/home/zijiand/cheddar/reports/lenet/acceptance/source.jsonl",
+    "complete": true,
+    "passed": true,
+    "images": 1000,
+    "checks": 1230,
+    "failed_checks": 0,
+    "activation_ranges": 4000,
+    "invalid_activation_ranges": 0,
+    "invalid_images": 0,
+    "max_logit_error": 1.5369434479203803e-06,
+    "max_layer_error": 2.0837698137630284e-06,
+    "failures": [],
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1000,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 06:45:59",
+      "executable": "/home/zijiand/cheddar/build-release/apps/lenet",
+      "kind": "environment",
+      "libraries": [
+        "7fa68c46c000-7fa68c4d3000 r--p 00000000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fa68c4d3000-7fa68c65d000 r-xp 00067000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fa68c65d000-7fa68cb98000 r--p 001f1000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fa68cb98000-7fa68cb99000 ---p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fa68cb99000-7fa68cb9e000 r--p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fa68cb9e000-7fa68cba1000 rw-p 00731000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so"
+      ],
+      "mode": "all",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 10.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/lenet_weights"
+    },
+    "bootstrap_config": {
+      "kind": "bootstrap_config",
+      "log_message_ratio": 5,
+      "output_level": 8,
+      "slots": [
+        512,
+        4096,
+        8192
+      ]
+    },
+    "last_image": 999,
+    "accuracy": {
+      "actual_accuracy": 0.09,
+      "classification_pass": true,
+      "count": 1000,
+      "evaluated_images": 1000,
+      "exact_accuracy": 0.09,
+      "invalid_images": 0,
+      "kind": "accuracy",
+      "polynomial_accuracy": 0.09,
+      "seconds": 403.958840995,
+      "top1_agreement": 1.0
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    }
+  }
+]

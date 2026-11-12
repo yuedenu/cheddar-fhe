@@ -1,0 +1,14 @@
+{
+  "CMakeLists.txt": "b2c6cf280aa631b19d6e3cda1395dd3815951eb75590a69de6a9dd61a9a3a91e",
+  "apps/CMakeLists.txt": "c02e29974e157ec7728d48b700787dffccb6793b36901a4ef7a1e823ed532835",
+  "include/extension/SpatialLayout.h": "178dca5abad6d2563b51fb7bf66c903479a991ca8981c8b298bf1f78830ba13d",
+  "tests/spatial_layout_test.cpp": "1606365c368950d923f23897ffa7111a536f0707c973891142eae1151b393e8f",
+  "apps/lenet/Model.h": "7edc9f3060f07bda3a52bf34937bec8e20b59ea7d3b0dc731abd9d840545600d",
+  "apps/lenet/main.cpp": "055c596633bf58ef9fcde657cb728d0c50b085e7ee6951a34ed244270309507d",
+  "scripts/lenet_validate.py": "7db7efcf12423c9ebd0a03b9012c2c2d2869bba3b28f188ed8ec717c0339dff4",
+  "scripts/lenet_precheck.py": "b3d0b2e2eeb06d0dfdbc976dc61ba955d43eac7fcd52c1fbc60eecc12c5ef5d9",
+  "README.md": "63418f1d5fc8f78ac5bb85edc6cf3c77ed6f96f16ed9485be3280e6da7b29741",
+  "docs/LENET.md": "1c3174ff48c2f5b8f96b0aaff5b674200efc9d3e75ed7a3ed14e23148b64ce60",
+  "reports/lenet/VALIDATION.md": "b89ada4ab5f3e423bbb7013a3961748d17c755fc0ff3b8368ef1aa8716fd522d",
+  "reports/lenet/RESULT.json": "75eae9c08db9dffd44a9c1101f0ba97706fca4c0b6c3b7ffb71d7b4b9ea4e7dc"
+}

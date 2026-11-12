@@ -1,0 +1,119 @@
+{
+  "source": "/home/zijiand/cheddar/legacy/original-layout/unittest/lenet_fused",
+  "weights": {
+    "conv1.bias.npy": {
+      "sha256": "20dc4a2b03f68a51890ffa1debb8b4956d9ba25e85ba80bf8ef22fe93c0c458a",
+      "shape": [
+        6
+      ],
+      "dtype": "float32",
+      "min": -0.08693346381187439,
+      "max": 0.11058580875396729,
+      "std": 0.0691944882273674
+    },
+    "conv1.weight.npy": {
+      "sha256": "5568518c61a3e6787d7c8dc8d16d80137a7adaca7ea82d119eb87976ffd76fa0",
+      "shape": [
+        6,
+        3,
+        5,
+        5
+      ],
+      "dtype": "float32",
+      "min": -0.11527817696332932,
+      "max": 0.1153695285320282,
+      "std": 0.06413152068853378
+    },
+    "conv2.bias.npy": {
+      "sha256": "c6ee80318d8e2b38a60ac89589c5c8378f6496f098387e10a8465f31e809ba38",
+      "shape": [
+        16
+      ],
+      "dtype": "float32",
+      "min": -0.04956667870283127,
+      "max": 0.060042768716812134,
+      "std": 0.03478235378861427
+    },
+    "conv2.weight.npy": {
+      "sha256": "9e12b01cd216a5ccb7c34306c6622514eb435295eda7664750aa449f6f544e61",
+      "shape": [
+        16,
+        6,
+        5,
+        5
+      ],
+      "dtype": "float32",
+      "min": -0.08161792904138565,
+      "max": 0.08156406879425049,
+      "std": 0.047764454036951065
+    },
+    "fc1.bias.npy": {
+      "sha256": "419d041858e964d34ec5977d2818b0457a5db364f7cc90f380d97a5d446609eb",
+      "shape": [
+        120
+      ],
+      "dtype": "float32",
+      "min": -0.04941282421350479,
+      "max": 0.049727294594049454,
+      "std": 0.028368674218654633
+    },
+    "fc1.weight.npy": {
+      "sha256": "fea750e3731d99df35299fc16b653e8e716fbf210b5dd8465ab58c08b3fb047a",
+      "shape": [
+        120,
+        400
+      ],
+      "dtype": "float32",
+      "min": -0.0499957911670208,
+      "max": 0.049996841698884964,
+      "std": 0.028900161385536194
+    },
+    "fc2.bias.npy": {
+      "sha256": "2684bb1db9dfdc4debe78301be3a2bc496491820a95d05f848f204cc0456aef3",
+      "shape": [
+        84
+      ],
+      "dtype": "float32",
+      "min": -0.08887039870023727,
+      "max": 0.0906589925289154,
+      "std": 0.05565626174211502
+    },
+    "fc2.weight.npy": {
+      "sha256": "c71ab7af2196f3edf63e76c87ba781047de32a97d72975df43e5dc759a9d9ac8",
+      "shape": [
+        84,
+        120
+      ],
+      "dtype": "float32",
+      "min": -0.09127867966890335,
+      "max": 0.09128667414188385,
+      "std": 0.0529000349342823
+    },
+    "fc3.bias.npy": {
+      "sha256": "8ffe4bf1965f2c8910faf6737d0d37c9f32475960976ecba62bde0d708cd6163",
+      "shape": [
+        10
+      ],
+      "dtype": "float32",
+      "min": -0.06946232914924622,
+      "max": 0.07294777780771255,
+      "std": 0.04678367078304291
+    },
+    "fc3.weight.npy": {
+      "sha256": "74215b9ace67ce319835d0d4f8cde9e18c2f30d4c575b2d1f6df3fd5d50af03a",
+      "shape": [
+        10,
+        84
+      ],
+      "dtype": "float32",
+      "min": -0.10907804220914841,
+      "max": 0.10872557014226913,
+      "std": 0.06065001338720322
+    }
+  },
+  "test_sources": [
+    "legacy/snapshot/unittest/lenet.cpp",
+    "legacy/snapshot/unittest/LeNet_acc.cpp"
+  ],
+  "data": "data/cifar10/test_batch.bin"
+}

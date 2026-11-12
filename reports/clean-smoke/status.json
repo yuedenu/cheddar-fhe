@@ -1,0 +1,26 @@
+[
+  {
+    "name": "smoke-source-30",
+    "returncode": 2,
+    "report": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-30.jsonl",
+    "log": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-30.log"
+  },
+  {
+    "name": "smoke-source-35",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-35.jsonl",
+    "log": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-35.log"
+  },
+  {
+    "name": "smoke-source-40",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-40.jsonl",
+    "log": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-40.log"
+  },
+  {
+    "name": "smoke-source-48",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-48.jsonl",
+    "log": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-48.log"
+  }
+]

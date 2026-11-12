@@ -1,0 +1,14 @@
+{
+  "data/cifar10/test_batch.bin": "8e2eb146ae340b09e24670f29cabc6326dba54da8789dab6768acf480273f65b",
+  "unittest/parameters/resnetparam_40.json": "98878b0687f9f0a275b9b64f5e4dfae0b7d12bbfe45c0761eeaaa9576bb6d89e",
+  "data/lenet_weights/conv1.bias.npy": "20dc4a2b03f68a51890ffa1debb8b4956d9ba25e85ba80bf8ef22fe93c0c458a",
+  "data/lenet_weights/conv1.weight.npy": "5568518c61a3e6787d7c8dc8d16d80137a7adaca7ea82d119eb87976ffd76fa0",
+  "data/lenet_weights/conv2.bias.npy": "c6ee80318d8e2b38a60ac89589c5c8378f6496f098387e10a8465f31e809ba38",
+  "data/lenet_weights/conv2.weight.npy": "9e12b01cd216a5ccb7c34306c6622514eb435295eda7664750aa449f6f544e61",
+  "data/lenet_weights/fc1.bias.npy": "419d041858e964d34ec5977d2818b0457a5db364f7cc90f380d97a5d446609eb",
+  "data/lenet_weights/fc1.weight.npy": "fea750e3731d99df35299fc16b653e8e716fbf210b5dd8465ab58c08b3fb047a",
+  "data/lenet_weights/fc2.bias.npy": "2684bb1db9dfdc4debe78301be3a2bc496491820a95d05f848f204cc0456aef3",
+  "data/lenet_weights/fc2.weight.npy": "c71ab7af2196f3edf63e76c87ba781047de32a97d72975df43e5dc759a9d9ac8",
+  "data/lenet_weights/fc3.bias.npy": "8ffe4bf1965f2c8910faf6737d0d37c9f32475960976ecba62bde0d708cd6163",
+  "data/lenet_weights/fc3.weight.npy": "74215b9ace67ce319835d0d4f8cde9e18c2f30d4c575b2d1f6df3fd5d50af03a"
+}

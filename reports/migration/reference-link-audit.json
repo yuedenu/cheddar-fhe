@@ -1,0 +1,12 @@
+{
+  "resnet_legacy": {
+    "loaded_libraries": "\tlinux-vdso.so.1 (0x00007ffede3d5000)\n\tlibcheddar.so => /home/zijiand/cheddar-fhe/legacy/snapshot/lib/libcheddar.so (0x00007fb2b403a000)\n\tlibcudart.so.11.0 => /usr/local/cuda-11.8/lib64/libcudart.so.11.0 (0x00007fb2b3c00000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007fb2b4018000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fb2b39d4000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fb2b3f2f000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fb2b3f0f000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fb2b37ab000)\n\tlibtommath.so.1 => /lib/x86_64-linux-gnu/libtommath.so.1 (0x00007fb2b3ef1000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007fb2b6077000)\n\tlibdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007fb2b3eec000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007fb2b3ee5000)\n\tlibrt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007fb2b3ee0000)\n",
+    "local_historical_library": true,
+    "no_old_source_root": true
+  },
+  "lenet_legacy": {
+    "loaded_libraries": "\tlinux-vdso.so.1 (0x00007ffff95e6000)\n\tlibcheddar.so => /home/zijiand/cheddar-fhe/legacy/snapshot/lib/libcheddar.so (0x00007f3a4d6f2000)\n\tlibcudart.so.11.0 => /usr/local/cuda-11.8/lib64/libcudart.so.11.0 (0x00007f3a4d400000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007f3a4d6d0000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f3a4d1d4000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f3a4d0ed000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f3a4d6ae000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f3a4cec4000)\n\tlibtommath.so.1 => /lib/x86_64-linux-gnu/libtommath.so.1 (0x00007f3a4cea6000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f3a4f72e000)\n\tlibdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f3a4d6a9000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f3a4cea1000)\n\tlibrt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007f3a4ce9c000)\n",
+    "local_historical_library": true,
+    "no_old_source_root": true
+  }
+}

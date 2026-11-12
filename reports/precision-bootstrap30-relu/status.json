@@ -1,0 +1,24 @@
+[
+  {
+    "name": "relu-source-30",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/precision-bootstrap30-relu/relu-source-30.jsonl",
+    "log": "/home/zijiand/cheddar/reports/precision-bootstrap30-relu/relu-source-30.log",
+    "executable_sha256": "efb8e3fbfdf26ee131b35f8c69a533fac8c84eb5f8580944ce15bbff8142bd68",
+    "command": [
+      "/home/zijiand/cheddar/build-final/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_30.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/precision-bootstrap30-relu/relu-source-30.jsonl",
+      "--mode",
+      "relu",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10"
+    ]
+  }
+]

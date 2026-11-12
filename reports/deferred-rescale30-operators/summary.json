@@ -1,0 +1,56 @@
+[
+  {
+    "report": "/home/zijiand/cheddar/reports/deferred-rescale30-operators/operators-source-30.jsonl",
+    "complete": true,
+    "passed": true,
+    "images": 0,
+    "checks": 51,
+    "failed_checks": 0,
+    "activation_ranges": 0,
+    "invalid_activation_ranges": 0,
+    "invalid_images": 0,
+    "max_logit_error": 0.0,
+    "max_layer_error": 8.077991558208542e-05,
+    "failures": [],
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 16 2026 09:19:30",
+      "executable": "/home/zijiand/cheddar/build-final/apps/resnet",
+      "kind": "environment",
+      "libraries": [
+        "7f6554f61000-7f6554fc8000 r--p 00000000 103:04 19050872                  /home/zijiand/cheddar/build-final/libcheddar_source.so",
+        "7f6554fc8000-7f6555152000 r-xp 00067000 103:04 19050872                  /home/zijiand/cheddar/build-final/libcheddar_source.so",
+        "7f6555152000-7f655568d000 r--p 001f1000 103:04 19050872                  /home/zijiand/cheddar/build-final/libcheddar_source.so",
+        "7f655568d000-7f655568e000 ---p 0072c000 103:04 19050872                  /home/zijiand/cheddar/build-final/libcheddar_source.so",
+        "7f655568e000-7f6555693000 r--p 0072c000 103:04 19050872                  /home/zijiand/cheddar/build-final/libcheddar_source.so",
+        "7f6555693000-7f6555696000 rw-p 00731000 103:04 19050872                  /home/zijiand/cheddar/build-final/libcheddar_source.so"
+      ],
+      "mode": "ops",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_30.json",
+      "relu_range": 10.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/weights"
+    },
+    "bootstrap_config": {
+      "kind": "bootstrap_config",
+      "log_message_ratio": 5,
+      "output_level": 16
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    }
+  }
+]

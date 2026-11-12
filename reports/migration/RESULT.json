@@ -1,0 +1,513 @@
+{
+  "passed": true,
+  "executions": [
+    {
+      "name": "basic-40",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/basic_test",
+        "--gtest_filter=*bootparam_40_json",
+        "--gtest_output=xml:/home/zijiand/cheddar-fhe/reports/migration/basic-40.xml"
+      ],
+      "state": "completed",
+      "started": 1793342261.3370652,
+      "executable_sha256": "3e4c9a8bc735a466330b90d4245c9041a52d6e5186e75463207ba4e766816996",
+      "returncode": 0,
+      "seconds": 2139.204452753067
+    },
+    {
+      "name": "boot-40",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/boot_test",
+        "--gtest_filter=*Testbed32*bootparam_40_json",
+        "--gtest_output=xml:/home/zijiand/cheddar-fhe/reports/migration/boot-40.xml"
+      ],
+      "state": "completed",
+      "started": 1793344400.5431867,
+      "executable_sha256": "89d485b0bb066f49ccae5934eec633e54b9a9561e31e5926445c9b1c4806e105",
+      "returncode": 0,
+      "seconds": 72.98818778991699
+    },
+    {
+      "name": "primitives-40",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/apps/primitive_test",
+        "--report",
+        "/home/zijiand/cheddar-fhe/reports/migration/primitives-40.jsonl"
+      ],
+      "state": "completed",
+      "started": 1793344473.5322993,
+      "executable_sha256": "0da0c1fda585488e4d39a1b9e96d9d666fbfeff791863f5f249a7ef653d81df3",
+      "returncode": 0,
+      "seconds": 5.289111375808716
+    },
+    {
+      "name": "operators-40",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+        "--mode",
+        "ops",
+        "--report",
+        "/home/zijiand/cheddar-fhe/reports/migration/operators-40.jsonl"
+      ],
+      "state": "completed",
+      "started": 1793344478.8243184,
+      "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+      "returncode": 0,
+      "seconds": 189.63864254951477
+    },
+    {
+      "name": "relu-40",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+        "--mode",
+        "relu",
+        "--report",
+        "/home/zijiand/cheddar-fhe/reports/migration/relu-40.jsonl"
+      ],
+      "state": "completed",
+      "started": 1793344668.4639606,
+      "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+      "returncode": 0,
+      "seconds": 68.40084838867188
+    },
+    {
+      "name": "smoke-30",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+        "--params",
+        "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_30.json",
+        "--count",
+        "1",
+        "--relu-range",
+        "10",
+        "--report",
+        "/home/zijiand/cheddar-fhe/reports/migration/smoke-30.jsonl"
+      ],
+      "state": "completed",
+      "started": 1793344736.8658955,
+      "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+      "returncode": 0,
+      "seconds": 370.1907925605774
+    },
+    {
+      "name": "smoke-35",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+        "--params",
+        "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_35.json",
+        "--count",
+        "1",
+        "--relu-range",
+        "10",
+        "--report",
+        "/home/zijiand/cheddar-fhe/reports/migration/smoke-35.jsonl"
+      ],
+      "state": "completed",
+      "started": 1793345107.0580108,
+      "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+      "returncode": 0,
+      "seconds": 362.31649947166443
+    },
+    {
+      "name": "smoke-40",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+        "--params",
+        "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_40.json",
+        "--count",
+        "1",
+        "--relu-range",
+        "10",
+        "--report",
+        "/home/zijiand/cheddar-fhe/reports/migration/smoke-40.jsonl"
+      ],
+      "state": "completed",
+      "started": 1793345469.3756723,
+      "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+      "returncode": 0,
+      "seconds": 327.9179925918579
+    },
+    {
+      "name": "smoke-48",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+        "--params",
+        "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_48.json",
+        "--count",
+        "1",
+        "--relu-range",
+        "10",
+        "--report",
+        "/home/zijiand/cheddar-fhe/reports/migration/smoke-48.jsonl"
+      ],
+      "state": "completed",
+      "started": 1793345797.2953632,
+      "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+      "returncode": 0,
+      "seconds": 1004.011029958725
+    },
+    {
+      "name": "resnet-1000",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+        "--mode",
+        "full",
+        "--count",
+        "1000",
+        "--layers",
+        "10",
+        "--relu-range",
+        "16",
+        "--report",
+        "/home/zijiand/cheddar-fhe/reports/migration/resnet-1000.jsonl"
+      ],
+      "state": "completed",
+      "started": 1793346801.3075616,
+      "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+      "returncode": 0,
+      "seconds": 2379.27113199234
+    },
+    {
+      "name": "resnet-benchmark",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+        "--mode",
+        "benchmark",
+        "--count",
+        "1",
+        "--relu-range",
+        "16",
+        "--warmup",
+        "2",
+        "--repeats",
+        "10",
+        "--report",
+        "/home/zijiand/cheddar-fhe/reports/migration/resnet-benchmark.jsonl"
+      ],
+      "state": "completed",
+      "started": 1793349180.5800905,
+      "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+      "returncode": 0,
+      "seconds": 338.80234599113464
+    },
+    {
+      "name": "lenet-1000",
+      "command": [
+        "/home/zijiand/cheddar-fhe/build-release/apps/lenet",
+        "--mode",
+        "all",
+        "--count",
+        "1000",
+        "--layers",
+        "10",
+        "--relu-range",
+        "10",
+        "--warmup",
+        "2",
+        "--repeats",
+        "10",
+        "--report",
+        "/home/zijiand/cheddar-fhe/reports/migration/lenet-1000.jsonl"
+      ],
+      "state": "completed",
+      "started": 1793352034.419879,
+      "executable_sha256": "f4e7633912cd915169120b14d321d050f0c527bc8971b35e403dd8d726516511",
+      "returncode": 0,
+      "seconds": 673.9919390678406
+    },
+    {
+      "name": "resnet-comparison",
+      "command": [
+        "/usr/bin/python3",
+        "/home/zijiand/cheddar-fhe/scripts/compare_reports.py",
+        "/home/zijiand/cheddar-fhe/reports/migration/resnet-1000.jsonl",
+        "/home/zijiand/cheddar-fhe/reports/release-1000/1000-source-40.jsonl",
+        "--output",
+        "/home/zijiand/cheddar-fhe/reports/migration/resnet-comparison.json"
+      ],
+      "state": "completed",
+      "started": 1793352708.4131422,
+      "executable_sha256": "d6bca2b84e73c7775a0dd5e6a76899cfe4ee62863d7c8f88513811d1fda23f49",
+      "returncode": 0,
+      "seconds": 5.552842140197754
+    },
+    {
+      "name": "lenet-comparison",
+      "command": [
+        "/usr/bin/python3",
+        "/home/zijiand/cheddar-fhe/scripts/compare_reports.py",
+        "/home/zijiand/cheddar-fhe/reports/migration/lenet-1000.jsonl",
+        "/home/zijiand/cheddar-fhe/reports/lenet/acceptance/source.jsonl",
+        "--output",
+        "/home/zijiand/cheddar-fhe/reports/migration/lenet-comparison.json"
+      ],
+      "state": "completed",
+      "started": 1793352713.9818695,
+      "executable_sha256": "d6bca2b84e73c7775a0dd5e6a76899cfe4ee62863d7c8f88513811d1fda23f49",
+      "returncode": 0,
+      "seconds": 0.4696073532104492
+    }
+  ],
+  "models": {
+    "resnet": {
+      "images": 1000,
+      "checks": 1990,
+      "failed_checks": 0,
+      "activation_ranges": 19000,
+      "invalid_activation_ranges": 0,
+      "max_logit_error": 0.0005647801450638923,
+      "max_layer_error": 9.593934267826398e-05,
+      "environment": {
+        "backend": "source",
+        "compiler": "11.4.0",
+        "count": 1000,
+        "data": "/home/zijiand/cheddar-fhe/data/cifar10/test_batch.bin",
+        "device": {
+          "compute_major": 8,
+          "compute_minor": 9,
+          "cuda_runtime_version": 11080,
+          "driver_version": 13030,
+          "memory_bytes": 50894602240,
+          "name": "NVIDIA GeForce RTX 4090"
+        },
+        "driver_build": "Oct 30 2026 06:34:04",
+        "executable": "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+        "kind": "environment",
+        "libraries": [
+          "7f8ecf885000-7f8ecf8ec000 r--p 00000000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+          "7f8ecf8ec000-7f8ecfa76000 r-xp 00067000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+          "7f8ecfa76000-7f8ecffb1000 r--p 001f1000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+          "7f8ecffb1000-7f8ecffb2000 ---p 0072c000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+          "7f8ecffb2000-7f8ecffb7000 r--p 0072c000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+          "7f8ecffb7000-7f8ecffba000 rw-p 00731000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so"
+        ],
+        "mode": "full",
+        "params": "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_40.json",
+        "relu_range": 16.0,
+        "start": 0,
+        "weights": "/home/zijiand/cheddar-fhe/data/weights"
+      },
+      "accuracy": {
+        "actual_accuracy": 0.925,
+        "classification_pass": true,
+        "count": 1000,
+        "evaluated_images": 1000,
+        "exact_accuracy": 0.926,
+        "invalid_images": 0,
+        "kind": "accuracy",
+        "polynomial_accuracy": 0.925,
+        "seconds": 2079.839316179,
+        "top1_agreement": 1.0
+      },
+      "summary": {
+        "failed_comparisons": 0,
+        "kind": "summary",
+        "pass": true
+      },
+      "all_1000_images": true
+    },
+    "lenet": {
+      "images": 1000,
+      "checks": 1230,
+      "failed_checks": 0,
+      "activation_ranges": 4000,
+      "invalid_activation_ranges": 0,
+      "max_logit_error": 1.6520824184379501e-06,
+      "max_layer_error": 1.7995176532219329e-06,
+      "environment": {
+        "backend": "source",
+        "compiler": "11.4.0",
+        "count": 1000,
+        "data": "/home/zijiand/cheddar-fhe/data/cifar10/test_batch.bin",
+        "device": {
+          "compute_major": 8,
+          "compute_minor": 9,
+          "cuda_runtime_version": 11080,
+          "driver_version": 13030,
+          "memory_bytes": 50894602240,
+          "name": "NVIDIA GeForce RTX 4090"
+        },
+        "driver_build": "Oct 30 2026 06:34:05",
+        "executable": "/home/zijiand/cheddar-fhe/build-release/apps/lenet",
+        "kind": "environment",
+        "libraries": [
+          "7f97603d9000-7f9760440000 r--p 00000000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+          "7f9760440000-7f97605ca000 r-xp 00067000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+          "7f97605ca000-7f9760b05000 r--p 001f1000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+          "7f9760b05000-7f9760b06000 ---p 0072c000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+          "7f9760b06000-7f9760b0b000 r--p 0072c000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+          "7f9760b0b000-7f9760b0e000 rw-p 00731000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so"
+        ],
+        "mode": "all",
+        "params": "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_40.json",
+        "relu_range": 10.0,
+        "start": 0,
+        "weights": "/home/zijiand/cheddar-fhe/data/lenet_weights"
+      },
+      "setup": {
+        "kind": "setup",
+        "model_and_keys_seconds": 181.092490077,
+        "runtime_seconds": 0.971308783
+      },
+      "accuracy": {
+        "actual_accuracy": 0.09,
+        "classification_pass": true,
+        "count": 1000,
+        "evaluated_images": 1000,
+        "exact_accuracy": 0.09,
+        "invalid_images": 0,
+        "kind": "accuracy",
+        "polynomial_accuracy": 0.09,
+        "seconds": 488.354265845,
+        "top1_agreement": 1.0
+      },
+      "benchmark": {
+        "correct": 0,
+        "decrypt_decode": {
+          "max_seconds": 0.000756282,
+          "mean_seconds": 0.0007261247,
+          "median_seconds": 0.0007252315,
+          "min_seconds": 0.000701005,
+          "samples": 10,
+          "stddev_seconds": 1.8105680611620225e-05
+        },
+        "encode_encrypt": {
+          "max_seconds": 0.042994787,
+          "mean_seconds": 0.0416827729,
+          "median_seconds": 0.0413739565,
+          "min_seconds": 0.04103999,
+          "samples": 10,
+          "stddev_seconds": 0.0006554801779205001
+        },
+        "finite": true,
+        "image": 0,
+        "inference": {
+          "max_seconds": 0.205390627,
+          "mean_seconds": 0.20530946560000002,
+          "median_seconds": 0.20531222999999998,
+          "min_seconds": 0.205206862,
+          "samples": 10,
+          "stddev_seconds": 5.374005662297324e-05
+        },
+        "kind": "benchmark",
+        "polynomial_agreement": 10,
+        "repeats": 10,
+        "total": {
+          "max_seconds": 0.249073595,
+          "mean_seconds": 0.24771836319999996,
+          "median_seconds": 0.24740250749999998,
+          "min_seconds": 0.24704734499999997,
+          "samples": 10,
+          "stddev_seconds": 0.0006667774334559975
+        },
+        "warmup": 2
+      },
+      "summary": {
+        "failed_comparisons": 0,
+        "kind": "summary",
+        "pass": true
+      },
+      "all_1000_images": true
+    }
+  },
+  "performance": {
+    "resnet": {
+      "valid": true,
+      "current_median_seconds": 1.1855623309999999,
+      "previous_median_seconds": 1.0985021405,
+      "change_percent": 7.925354652506478,
+      "note": "Previous measurement from the preserved source acceptance; separate session."
+    },
+    "lenet": {
+      "valid": true,
+      "current_median_seconds": 0.20531222999999998,
+      "previous_median_seconds": 0.20518961149999998,
+      "change_percent": 0.05975862964193723,
+      "note": "Previous measurement from the preserved source acceptance; separate session."
+    }
+  },
+  "comparisons": {
+    "resnet": {
+      "passed": true,
+      "problems": [],
+      "source_summary": {
+        "failed_comparisons": 0,
+        "kind": "summary",
+        "pass": true
+      },
+      "historical_summary": {
+        "failed_comparisons": 0,
+        "kind": "summary",
+        "pass": true
+      },
+      "source_bootstrap_config": {
+        "kind": "bootstrap_config",
+        "log_message_ratio": 5,
+        "output_level": 8
+      },
+      "historical_bootstrap_config": {
+        "kind": "bootstrap_config",
+        "log_message_ratio": 5,
+        "output_level": 8
+      },
+      "classification": {
+        "compared_images": 1000,
+        "matching_predictions": 1000,
+        "top1_agreement": 1.0,
+        "source_accuracy": 0.925,
+        "historical_accuracy": 0.925
+      }
+    },
+    "lenet": {
+      "passed": true,
+      "problems": [],
+      "source_summary": {
+        "failed_comparisons": 0,
+        "kind": "summary",
+        "pass": true
+      },
+      "historical_summary": {
+        "failed_comparisons": 0,
+        "kind": "summary",
+        "pass": true
+      },
+      "source_bootstrap_config": {
+        "kind": "bootstrap_config",
+        "log_message_ratio": 5,
+        "output_level": 8,
+        "slots": [
+          512,
+          4096,
+          8192
+        ]
+      },
+      "historical_bootstrap_config": {
+        "kind": "bootstrap_config",
+        "log_message_ratio": 5,
+        "output_level": 8,
+        "slots": [
+          512,
+          4096,
+          8192
+        ]
+      },
+      "classification": {
+        "compared_images": 1000,
+        "matching_predictions": 1000,
+        "top1_agreement": 1.0,
+        "source_accuracy": 0.09,
+        "historical_accuracy": 0.09
+      }
+    }
+  },
+  "project_local_runtime": true,
+  "library_sha256": "921c23ed54744fda8c6e875250f0b8ad3cbb9bd3840ca7148a6c942dced800b1",
+  "limits": [
+    "LeNet model quality remains unvalidated: the original weights predict class 4 on all 1000 images.",
+    "Comparison is against the restored source backend in cheddar, not the original ParFuse binaries.",
+    "Performance is reported separately; no latency threshold is inferred."
+  ],
+  "pass_scope": "Build runtime independence, functional/numerical equivalence and valid timing samples; no latency-equivalence threshold.",
+  "performance_equivalence_confirmed": false,
+  "performance_evidence": "paired-performance/comparison.json"
+}

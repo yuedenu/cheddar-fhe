@@ -1,0 +1,9 @@
+{
+  "checked_files": 5245,
+  "mismatches": [],
+  "passed": true,
+  "new_validation_scripts": [
+    "scripts/migration_validate.py",
+    "scripts/migration_benchmark.py"
+  ]
+}

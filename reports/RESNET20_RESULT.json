@@ -1,0 +1,77 @@
+{
+  "scope": "ResNet20 source reconstruction, independent build, 1000-image classification accuracy and single-image performance",
+  "current_scope_complete": true,
+  "config": 40,
+  "accuracy_relu_range": 16,
+  "default_relu_range": 10,
+  "classification": {
+    "compared_images": 1000,
+    "matching_predictions": 993,
+    "top1_agreement": 0.993,
+    "source_accuracy": 0.925,
+    "historical_accuracy": 0.92
+  },
+  "source_validation": {
+    "images": 1000,
+    "checks": 1990,
+    "failed_checks": 0,
+    "activation_ranges": 19000,
+    "invalid_activation_ranges": 0,
+    "max_logit_error": 0.0007390485206217878,
+    "max_layer_error": 0.0001301263420588894
+  },
+  "source_polynomial_top1_agreement": 1.0,
+  "performance": [
+    {
+      "relu_range": 10.0,
+      "timing_valid": true,
+      "inference": {
+        "source_median_seconds": 0.934167796,
+        "legacy_median_seconds": 1.1793754865000001,
+        "source_over_legacy": 0.7920868346791774,
+        "change_percent": -20.79131653208226
+      },
+      "total": {
+        "source_median_seconds": 0.9774588935,
+        "legacy_median_seconds": 1.2225401210000002,
+        "source_over_legacy": 0.799531137432503,
+        "change_percent": -20.046886256749698
+      }
+    },
+    {
+      "relu_range": 16.0,
+      "timing_valid": true,
+      "inference": {
+        "source_median_seconds": 1.0985021405,
+        "legacy_median_seconds": 1.1799534205,
+        "source_over_legacy": 0.9309707666549367,
+        "change_percent": -6.902923334506328
+      },
+      "total": {
+        "source_median_seconds": 1.1416163185,
+        "legacy_median_seconds": 1.224714483,
+        "source_over_legacy": 0.9321489492828998,
+        "change_percent": -6.785105071710018
+      }
+    }
+  ],
+  "same_accuracy_input_fingerprints": true,
+  "same_benchmark_and_accuracy_source_binary": true,
+  "unchanged_source_since_empty_build": true,
+  "source_executable_sha256": "d4cae5c905ff4a91e29eea2f5fe56034ef7613a0ad7c13f0e50b861bc164f23d",
+  "libraries_sha256": {
+    "/home/zijiand/cheddar/build-release/libcheddar_source.so": "0c20f2a044ce32c6927c94c6f925e16b0f3e514fc6baab1d4e472100ac556898"
+  },
+  "limits": [
+    "Default B=10 has four activation-domain failures in the first 1000 images; B=16 was explicitly approved for this acceptance.",
+    "Strict layer/logit numerical equivalence to the historical package does not pass; classification accuracy and performance are reported separately.",
+    "Performance is synchronized warmed backend wall time on this device and image, including historical library internal warnings."
+  ],
+  "evidence": {
+    "build": "release-build/independence.json",
+    "source_accuracy": "release-1000/source-summary.json",
+    "historical_accuracy": "range16-1000/1000-legacy-40.jsonl",
+    "historical_comparison": "release-1000/historical-comparison.json",
+    "performance": "release-benchmark/results.json"
+  }
+}

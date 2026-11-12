@@ -1,0 +1,41 @@
+{
+  "passed": false,
+  "problems": [],
+  "source_summary": {
+    "failed_comparisons": 0,
+    "kind": "summary",
+    "pass": true
+  },
+  "historical_summary": {
+    "failed_comparisons": 2,
+    "kind": "summary",
+    "pass": false
+  },
+  "classification": {},
+  "checkpoints": [
+    {
+      "image": 8,
+      "name": "relu/alias0",
+      "passed": false,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.15965048347439856,
+      "source_level": 2,
+      "historical_level": 2,
+      "source_scale": 1030847860423.6283,
+      "historical_scale": 1030847860423.6285
+    },
+    {
+      "image": 8,
+      "name": "relu/alias1",
+      "passed": false,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.06648898543643922,
+      "source_level": 2,
+      "historical_level": 2,
+      "source_scale": 1030847860423.6283,
+      "historical_scale": 1030847860423.6285
+    }
+  ]
+}

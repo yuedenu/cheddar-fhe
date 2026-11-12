@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="72.851" timestamp="2026-10-30T07:13:20.555" name="AllTests">
+  <testsuite name="Cheddar/Testbed32" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="72.851" timestamp="2026-10-30T07:13:20.555">
+    <testcase name="Bootstrap/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/Bootstrapping.cpp" line="7" status="run" result="completed" time="72.851" timestamp="2026-10-30T07:13:20.555" classname="Cheddar/Testbed32" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,187 @@
+{
+  "passed": false,
+  "problems": [],
+  "source_summary": {
+    "failed_comparisons": 0,
+    "kind": "summary",
+    "pass": true
+  },
+  "historical_summary": {
+    "failed_comparisons": 9,
+    "kind": "summary",
+    "pass": false
+  },
+  "source_bootstrap_config": {
+    "kind": "bootstrap_config",
+    "log_message_ratio": 5,
+    "output_level": 8,
+    "slots": [
+      512,
+      4096,
+      8192
+    ]
+  },
+  "historical_bootstrap_config": {
+    "kind": "bootstrap_config",
+    "log_message_ratio": 5,
+    "output_level": 8,
+    "slots": [
+      512,
+      4096,
+      8192
+    ]
+  },
+  "classification": {
+    "compared_images": 1,
+    "matching_predictions": 1,
+    "top1_agreement": 1.0,
+    "source_accuracy": 0.0,
+    "historical_accuracy": 0.0
+  },
+  "checkpoints": [
+    {
+      "image": 0,
+      "name": "conv1",
+      "passed": true,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 4.6139581597048895e-07,
+      "source_level": 1,
+      "historical_level": 1,
+      "source_scale": 1104109267709.0356,
+      "historical_scale": 1104109267709.0356
+    },
+    {
+      "image": 0,
+      "name": "conv2",
+      "passed": true,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.0004930704004604686,
+      "source_level": 0,
+      "historical_level": 0,
+      "source_scale": 1099511627775.9995,
+      "historical_scale": 1099511627776.0
+    },
+    {
+      "image": 0,
+      "name": "fc1",
+      "passed": true,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.00010055683455585575,
+      "source_level": 0,
+      "historical_level": 0,
+      "source_scale": 1099511627775.9995,
+      "historical_scale": 1099511627775.9995
+    },
+    {
+      "image": 0,
+      "name": "fc2",
+      "passed": true,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.00011361293243422263,
+      "source_level": 0,
+      "historical_level": 0,
+      "source_scale": 1099511627775.9995,
+      "historical_scale": 1099511627776.0
+    },
+    {
+      "image": 0,
+      "name": "flatten",
+      "passed": true,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.00037263482378943266,
+      "source_level": 0,
+      "historical_level": 0,
+      "source_scale": 1099511627775.9995,
+      "historical_scale": 1099511627776.0
+    },
+    {
+      "image": 0,
+      "name": "logits",
+      "passed": true,
+      "atol": 0.01,
+      "rtol": 0.001,
+      "max_abs": 0.00017585627334192055,
+      "source_level": 0,
+      "historical_level": 0,
+      "source_scale": 1099511627775.9995,
+      "historical_scale": 1099511627776.0
+    },
+    {
+      "image": 0,
+      "name": "pool1",
+      "passed": false,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.002398656902632343,
+      "source_level": 1,
+      "historical_level": 1,
+      "source_scale": 1104109267709.0352,
+      "historical_scale": 1104109267709.0356
+    },
+    {
+      "image": 0,
+      "name": "pool2",
+      "passed": true,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.0003732509316097445,
+      "source_level": 1,
+      "historical_level": 1,
+      "source_scale": 1104109267709.0352,
+      "historical_scale": 1104109267709.0356
+    },
+    {
+      "image": 0,
+      "name": "relu1",
+      "passed": false,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.009517099179918193,
+      "source_level": 2,
+      "historical_level": 2,
+      "source_scale": 1030847860423.6283,
+      "historical_scale": 1030847860423.6285
+    },
+    {
+      "image": 0,
+      "name": "relu2",
+      "passed": false,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.0014469504933270413,
+      "source_level": 2,
+      "historical_level": 2,
+      "source_scale": 1030847860423.6283,
+      "historical_scale": 1030847860423.6285
+    },
+    {
+      "image": 0,
+      "name": "relu3",
+      "passed": true,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.00040605073527430274,
+      "source_level": 2,
+      "historical_level": 2,
+      "source_scale": 1030847860423.6283,
+      "historical_scale": 1030847860423.6285
+    },
+    {
+      "image": 0,
+      "name": "relu4",
+      "passed": false,
+      "atol": 0.001,
+      "rtol": 0.001,
+      "max_abs": 0.0014062686737883016,
+      "source_level": 2,
+      "historical_level": 2,
+      "source_scale": 1030847860423.6283,
+      "historical_scale": 1030847860423.6285
+    }
+  ]
+}

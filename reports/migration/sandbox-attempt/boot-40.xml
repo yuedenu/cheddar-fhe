@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" disabled="0" errors="0" time="0.006" timestamp="2026-10-30T06:35:57.995" name="AllTests">
+  <testsuite name="Cheddar/Testbed32" tests="1" failures="1" disabled="0" skipped="0" errors="0" time="0.006" timestamp="2026-10-30T06:35:57.995">
+    <testcase name="Bootstrap/bootparam_40_json" value_param="&quot;bootparam_40.json&quot;" file="/home/zijiand/cheddar-fhe/unittest/Bootstrapping.cpp" line="7" status="run" result="completed" time="0.006" timestamp="2026-10-30T06:35:57.995" classname="Cheddar/Testbed32">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS&quot; thrown in SetUp()." type=""><![CDATA[unknown file
+C++ exception with description "CUDA error at: /home/zijiand/cheddar-fhe/third_party/rmm/include/rmm/cuda_device.hpp:56: cudaErrorOperatingSystem OS call failed or operation not supported on this OS" thrown in SetUp().]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

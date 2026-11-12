@@ -1,0 +1,68 @@
+[
+  {
+    "name": "smoke-legacy-30",
+    "returncode": 2,
+    "report": "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-30.jsonl",
+    "log": "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-30.log",
+    "executable_sha256": "6a098971e65b5f305f9c6145c8de7eb89278c91ab4f62471944b05aafc50dd30",
+    "command": [
+      "/home/zijiand/cheddar/build-source/apps/resnet_legacy",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_30.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-30.jsonl",
+      "--mode",
+      "full",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10"
+    ]
+  },
+  {
+    "name": "smoke-legacy-35",
+    "returncode": 2,
+    "report": "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-35.jsonl",
+    "log": "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-35.log",
+    "executable_sha256": "6a098971e65b5f305f9c6145c8de7eb89278c91ab4f62471944b05aafc50dd30",
+    "command": [
+      "/home/zijiand/cheddar/build-source/apps/resnet_legacy",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_35.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-35.jsonl",
+      "--mode",
+      "full",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10"
+    ]
+  },
+  {
+    "name": "smoke-legacy-48",
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-48.jsonl",
+    "log": "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-48.log",
+    "executable_sha256": "6a098971e65b5f305f9c6145c8de7eb89278c91ab4f62471944b05aafc50dd30",
+    "command": [
+      "/home/zijiand/cheddar/build-source/apps/resnet_legacy",
+      "--params",
+      "/home/zijiand/cheddar/unittest/parameters/resnetparam_48.json",
+      "--report",
+      "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-48.jsonl",
+      "--mode",
+      "full",
+      "--count",
+      "1",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10"
+    ]
+  }
+]

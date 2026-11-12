@@ -1,0 +1,452 @@
+[
+  {
+    "cumulative_max_abs": 7.430809876752403e-05,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 6.9296780579986e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.06752687552588077,
+    "name": "relu0"
+  },
+  {
+    "cumulative_max_abs": 0.00010359175234059097,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 8.841481647522964e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.08354409122977927,
+    "name": "block1/conv1"
+  },
+  {
+    "cumulative_max_abs": 9.934723862525113e-05,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 7.118630163268497e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.06864849943722941,
+    "name": "block1/relu1"
+  },
+  {
+    "cumulative_max_abs": 0.000154146953916013,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 9.258014779373047e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.09221348476986954,
+    "name": "block1/conv2"
+  },
+  {
+    "cumulative_max_abs": 0.00018897932791293176,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 8.187485397020966e-06,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.007977844468823676,
+    "name": "block1/add"
+  },
+  {
+    "cumulative_max_abs": 0.00020042579786064968,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 6.557343518701769e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.06305904643692559,
+    "name": "block1/relu2"
+  },
+  {
+    "cumulative_max_abs": 0.0001276522018193102,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 9.056735771834426e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.0893560222826135,
+    "name": "block2/conv1"
+  },
+  {
+    "cumulative_max_abs": 0.00012902100946197287,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 6.460012344396658e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.06400310642240352,
+    "name": "block2/relu1"
+  },
+  {
+    "cumulative_max_abs": 0.00028627017458417517,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 8.963062334552824e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.08891374435973151,
+    "name": "block2/conv2"
+  },
+  {
+    "cumulative_max_abs": 0.0003869214431433052,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 6.2906865941174395e-06,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.006161603762216941,
+    "name": "block2/add"
+  },
+  {
+    "cumulative_max_abs": 0.00038596948925671143,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 7.662666860060174e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.06936441077872497,
+    "name": "block2/relu2"
+  },
+  {
+    "cumulative_max_abs": 0.000311217851217906,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00011227509900049379,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.10975361890283247,
+    "name": "block3/conv1"
+  },
+  {
+    "cumulative_max_abs": 0.0003077322123764704,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 6.838628431796515e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.06727116867706451,
+    "name": "block3/relu1"
+  },
+  {
+    "cumulative_max_abs": 0.00037947680547717813,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 9.165075708699594e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.08909246365339958,
+    "name": "block3/conv2"
+  },
+  {
+    "cumulative_max_abs": 0.0003969650801791194,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 9.040273581895075e-06,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.008872123899954093,
+    "name": "block3/add"
+  },
+  {
+    "cumulative_max_abs": 0.00041258355396359137,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 6.615587258004124e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.0650474584794204,
+    "name": "block3/relu2"
+  },
+  {
+    "cumulative_max_abs": 0.0002486222008603947,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00013113468386701313,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.12987803925532954,
+    "name": "block4/conv1"
+  },
+  {
+    "cumulative_max_abs": 0.0001815250027574697,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 5.056151214893195e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.049030953489778165,
+    "name": "block4/relu1"
+  },
+  {
+    "cumulative_max_abs": 0.0002779511247414275,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00010999464852892715,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.10870151286600298,
+    "name": "block4/conv2"
+  },
+  {
+    "cumulative_max_abs": 0.00037510055810277554,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.0001272756304926191,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.12693904568872275,
+    "name": "block4/projection"
+  },
+  {
+    "cumulative_max_abs": 0.00039405708962154257,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 5.551115123125783e-17,
+    "local_pass": true,
+    "local_tolerance_ratio": 4.999658618996878e-14,
+    "name": "block4/add"
+  },
+  {
+    "cumulative_max_abs": 0.0004014813372695547,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 4.798049702466403e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.04716532469440381,
+    "name": "block4/relu2"
+  },
+  {
+    "cumulative_max_abs": 0.00027949881507079166,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00010902931785001374,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.10637777185932415,
+    "name": "block5/conv1"
+  },
+  {
+    "cumulative_max_abs": 0.00023479818450357825,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 4.476586034785068e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.043990131235119787,
+    "name": "block5/relu1"
+  },
+  {
+    "cumulative_max_abs": 0.0002525621479962381,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.0001096332453628876,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.10630107945292017,
+    "name": "block5/conv2"
+  },
+  {
+    "cumulative_max_abs": 0.0004055031654540617,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 7.886837533693791e-06,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.00723487550540009,
+    "name": "block5/add"
+  },
+  {
+    "cumulative_max_abs": 0.0004011617659711447,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 7.644052163463533e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.07414098433404569,
+    "name": "block5/relu2"
+  },
+  {
+    "cumulative_max_abs": 0.0002967405073560324,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00012884199194706375,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.12799014288812557,
+    "name": "block6/conv1"
+  },
+  {
+    "cumulative_max_abs": 0.00022808743376442203,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 5.423018838223684e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.054147022584725285,
+    "name": "block6/relu1"
+  },
+  {
+    "cumulative_max_abs": 0.000272689931074873,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00012829160622003163,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.1255234827471242,
+    "name": "block6/conv2"
+  },
+  {
+    "cumulative_max_abs": 0.0004373505481043531,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 6.061890218251459e-06,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.0059188401286685175,
+    "name": "block6/add"
+  },
+  {
+    "cumulative_max_abs": 0.0004538313135716218,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 8.069451351769286e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.07466170465485143,
+    "name": "block6/relu2"
+  },
+  {
+    "cumulative_max_abs": 0.0002664025460043678,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.0001931150914895475,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.19112503218238533,
+    "name": "block7/conv1"
+  },
+  {
+    "cumulative_max_abs": 0.0001960745143119863,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 4.579972010425315e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.04353717791949547,
+    "name": "block7/relu1"
+  },
+  {
+    "cumulative_max_abs": 0.00022290893837167232,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00016658493024017656,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.16618330716077037,
+    "name": "block7/conv2"
+  },
+  {
+    "cumulative_max_abs": 0.0001440044237408858,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00013830397204700126,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.13606211656538358,
+    "name": "block7/projection"
+  },
+  {
+    "cumulative_max_abs": 0.00029774000171858134,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 4.163336342344337e-17,
+    "local_pass": true,
+    "local_tolerance_ratio": 3.9070645010579314e-14,
+    "name": "block7/add"
+  },
+  {
+    "cumulative_max_abs": 0.00029427585456019006,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 5.159836528184983e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.050572650400007815,
+    "name": "block7/relu2"
+  },
+  {
+    "cumulative_max_abs": 0.0003562378621951301,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00015334843522379904,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.15074737283409,
+    "name": "block8/conv1"
+  },
+  {
+    "cumulative_max_abs": 0.0002907837770282119,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 4.2934041982814475e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.04255224478057837,
+    "name": "block8/relu1"
+  },
+  {
+    "cumulative_max_abs": 0.0005664556059474246,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.0001588118895987367,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.14979347128473394,
+    "name": "block8/conv2"
+  },
+  {
+    "cumulative_max_abs": 0.0005678618695496851,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 6.133956505720295e-06,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.006074594984817623,
+    "name": "block8/add"
+  },
+  {
+    "cumulative_max_abs": 0.0004957524032687905,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 5.7721021076454545e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.0576287693183097,
+    "name": "block8/relu2"
+  },
+  {
+    "cumulative_max_abs": 0.0002609941830614415,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00014301074587482789,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.14136451027035382,
+    "name": "block9/conv1"
+  },
+  {
+    "cumulative_max_abs": 0.00019492064152636579,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 4.644836049592211e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.0463791684368524,
+    "name": "block9/relu1"
+  },
+  {
+    "cumulative_max_abs": 0.0010856933339892707,
+    "cumulative_pass": false,
+    "image": 0,
+    "local_max_abs": 0.0003708791026387631,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.3599467973648476,
+    "name": "block9/conv2"
+  },
+  {
+    "cumulative_max_abs": 0.0012503497004577036,
+    "cumulative_pass": false,
+    "image": 0,
+    "local_max_abs": 8.637837084574107e-06,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.007579610308050689,
+    "name": "block9/add"
+  },
+  {
+    "cumulative_max_abs": 0.0012558574733124543,
+    "cumulative_pass": false,
+    "image": 0,
+    "local_max_abs": 5.5499305859641954e-05,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.05495439050066783,
+    "name": "block9/relu2"
+  },
+  {
+    "cumulative_max_abs": 0.0015549992070610363,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 0.00025573636933707775,
+    "local_pass": true,
+    "local_tolerance_ratio": 0.2499787302271541,
+    "name": "pool"
+  },
+  {
+    "cumulative_max_abs": 0.0024984348179618587,
+    "cumulative_pass": true,
+    "image": 0,
+    "local_max_abs": 1.0997541549651046e-07,
+    "local_pass": true,
+    "local_tolerance_ratio": 1.0644917058282582e-05,
+    "name": "logits"
+  }
+]

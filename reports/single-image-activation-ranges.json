@@ -1,0 +1,1410 @@
+[
+  {
+    "report": "/home/zijiand/cheddar/reports/actual-slots-30/smoke-source-30.jsonl",
+    "checks": [
+      {
+        "image": 0,
+        "input_checkpoint": "conv0",
+        "minimum": -0.1209251664175126,
+        "maximum": 0.13855517011597004,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/conv1",
+        "minimum": -0.13131815836112448,
+        "maximum": 0.13165266468042247,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/add",
+        "minimum": -0.168554094317876,
+        "maximum": 0.23969693730471986,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/conv1",
+        "minimum": -0.11293015942172926,
+        "maximum": 0.09207713067494322,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/add",
+        "minimum": -0.16755098926465486,
+        "maximum": 0.3235372520725217,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/conv1",
+        "minimum": -0.17031741539885564,
+        "maximum": 0.1389653955639432,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/add",
+        "minimum": -0.13037284472765692,
+        "maximum": 0.23626746962874498,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/conv1",
+        "minimum": -0.1117706132570976,
+        "maximum": 0.11697059945935735,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/add",
+        "minimum": -0.17967706153958887,
+        "maximum": 0.21112874255031744,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/conv1",
+        "minimum": -0.136787947745459,
+        "maximum": 0.10709025798956288,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/add",
+        "minimum": -0.15278817255724864,
+        "maximum": 0.2305126545505851,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/conv1",
+        "minimum": -0.15771260673221213,
+        "maximum": 0.10095091345992027,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/add",
+        "minimum": -0.13585003167777612,
+        "maximum": 0.24716369496373528,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/conv1",
+        "minimum": -0.09848098522889456,
+        "maximum": 0.09857646711167387,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/add",
+        "minimum": -0.1150738166752148,
+        "maximum": 0.10957154521672663,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/conv1",
+        "minimum": -0.1357466737899646,
+        "maximum": 0.10979354801276434,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/add",
+        "minimum": -0.19857583372229975,
+        "maximum": 0.17055633423073033,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/conv1",
+        "minimum": -0.07544077206943459,
+        "maximum": 0.04333973086809564,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/add",
+        "minimum": -0.42262135923415217,
+        "maximum": 0.3426308289049927,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      }
+    ]
+  },
+  {
+    "report": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-35.jsonl",
+    "checks": [
+      {
+        "image": 0,
+        "input_checkpoint": "conv0",
+        "minimum": -0.12092382802035348,
+        "maximum": 0.1385443117430277,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/conv1",
+        "minimum": -0.13133640775115266,
+        "maximum": 0.13163362840446102,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/add",
+        "minimum": -0.1685764044542747,
+        "maximum": 0.23974240298689314,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/conv1",
+        "minimum": -0.11294435856173127,
+        "maximum": 0.092104283647908,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/add",
+        "minimum": -0.16759275498117596,
+        "maximum": 0.32362035921176197,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/conv1",
+        "minimum": -0.1703441418215099,
+        "maximum": 0.13899390618382668,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/add",
+        "minimum": -0.13037380357937783,
+        "maximum": 0.2363138358962635,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/conv1",
+        "minimum": -0.11174805290622664,
+        "maximum": 0.11689804711282117,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/add",
+        "minimum": -0.17977758364391422,
+        "maximum": 0.2112143413122986,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/conv1",
+        "minimum": -0.13682469583758508,
+        "maximum": 0.10710334468555474,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/add",
+        "minimum": -0.15286316980010023,
+        "maximum": 0.2306549102243092,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/conv1",
+        "minimum": -0.15766749177870842,
+        "maximum": 0.10089200317449802,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/add",
+        "minimum": -0.13603423992949154,
+        "maximum": 0.24723954722301267,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/conv1",
+        "minimum": -0.0984791109069688,
+        "maximum": 0.09854898677207855,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/add",
+        "minimum": -0.11502505775861954,
+        "maximum": 0.10950122772990199,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/conv1",
+        "minimum": -0.13590287919795757,
+        "maximum": 0.10991103952877207,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/add",
+        "minimum": -0.1987605788145529,
+        "maximum": 0.17069923912351698,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/conv1",
+        "minimum": -0.07536016122513017,
+        "maximum": 0.04337947076904651,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/add",
+        "minimum": -0.4222947484489725,
+        "maximum": 0.34249015058905913,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      }
+    ]
+  },
+  {
+    "report": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-40.jsonl",
+    "checks": [
+      {
+        "image": 0,
+        "input_checkpoint": "conv0",
+        "minimum": -0.12092293940720043,
+        "maximum": 0.1385446484473854,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/conv1",
+        "minimum": -0.13133514666305426,
+        "maximum": 0.1316354686683234,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/add",
+        "minimum": -0.16857733390630658,
+        "maximum": 0.2397413281888259,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/conv1",
+        "minimum": -0.11294325413698297,
+        "maximum": 0.09210318328393416,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/add",
+        "minimum": -0.16758973622341547,
+        "maximum": 0.3236162256212675,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/conv1",
+        "minimum": -0.17034307350132025,
+        "maximum": 0.13899441957772962,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/add",
+        "minimum": -0.13037443248869077,
+        "maximum": 0.23631556004277599,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/conv1",
+        "minimum": -0.11174958849784629,
+        "maximum": 0.11690063939966261,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/add",
+        "minimum": -0.17977568272419864,
+        "maximum": 0.2112163764879769,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/conv1",
+        "minimum": -0.13682562307222912,
+        "maximum": 0.10710342141029813,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/add",
+        "minimum": -0.15286134001300314,
+        "maximum": 0.23065561531586934,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/conv1",
+        "minimum": -0.15767007537047606,
+        "maximum": 0.10088960244164517,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/add",
+        "minimum": -0.13603908741479803,
+        "maximum": 0.2472453602004086,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/conv1",
+        "minimum": -0.09848227734493714,
+        "maximum": 0.09855257530033941,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/add",
+        "minimum": -0.11502721604088,
+        "maximum": 0.10950478475628057,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/conv1",
+        "minimum": -0.1359009347907686,
+        "maximum": 0.10990382136908043,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/add",
+        "minimum": -0.19875467326469226,
+        "maximum": 0.17070347980636616,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/conv1",
+        "minimum": -0.07536514973351353,
+        "maximum": 0.04337967101429134,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/add",
+        "minimum": -0.42229851622225534,
+        "maximum": 0.34247752669585896,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      }
+    ]
+  },
+  {
+    "report": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-48.jsonl",
+    "checks": [
+      {
+        "image": 0,
+        "input_checkpoint": "conv0",
+        "minimum": -0.12092289360249862,
+        "maximum": 0.1385447539143192,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/conv1",
+        "minimum": -0.1313350450911491,
+        "maximum": 0.13163533716616876,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/add",
+        "minimum": -0.16857813560718332,
+        "maximum": 0.23974182383053808,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/conv1",
+        "minimum": -0.11294385424574431,
+        "maximum": 0.09210329169874967,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/add",
+        "minimum": -0.1675899841515036,
+        "maximum": 0.323618441062808,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/conv1",
+        "minimum": -0.17034259108092473,
+        "maximum": 0.13899423389485902,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/add",
+        "minimum": -0.13037437273580968,
+        "maximum": 0.2363151695804325,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/conv1",
+        "minimum": -0.11174947857257592,
+        "maximum": 0.1169002841084605,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/add",
+        "minimum": -0.17977463363367038,
+        "maximum": 0.2112160303202243,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/conv1",
+        "minimum": -0.13682612692144988,
+        "maximum": 0.10710396339170081,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/add",
+        "minimum": -0.15285917172554794,
+        "maximum": 0.2306556750792695,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/conv1",
+        "minimum": -0.15767035565093332,
+        "maximum": 0.1008917752983325,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/add",
+        "minimum": -0.13603755433380868,
+        "maximum": 0.24724464037892824,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/conv1",
+        "minimum": -0.09848408656143344,
+        "maximum": 0.09855349348132468,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/add",
+        "minimum": -0.11502608801467867,
+        "maximum": 0.10950602425753281,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/conv1",
+        "minimum": -0.13589832764972404,
+        "maximum": 0.10990697793791199,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/add",
+        "minimum": -0.1987542042379967,
+        "maximum": 0.17069979759487766,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/conv1",
+        "minimum": -0.07536569042991936,
+        "maximum": 0.04337927746279516,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/add",
+        "minimum": -0.42230247263491677,
+        "maximum": 0.34247584287920185,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      }
+    ]
+  },
+  {
+    "report": "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-30.jsonl",
+    "checks": [
+      {
+        "image": 0,
+        "input_checkpoint": "conv0",
+        "minimum": -0.12092236111119664,
+        "maximum": 0.13854393906880094,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/conv1",
+        "minimum": -120246.99764059845,
+        "maximum": 127495.81143900241,
+        "nonfinite_values": 0,
+        "invalid_values": 16384,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/add",
+        "minimum": -160885.19106379722,
+        "maximum": 181504.88324892745,
+        "nonfinite_values": 0,
+        "invalid_values": 16384,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/conv1",
+        "minimum": -142429.11335420207,
+        "maximum": 149184.41348443777,
+        "nonfinite_values": 0,
+        "invalid_values": 16383,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/add",
+        "minimum": -171803.41490593314,
+        "maximum": 173919.41893464196,
+        "nonfinite_values": 0,
+        "invalid_values": 16384,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/conv1",
+        "minimum": -118995.7495308068,
+        "maximum": 121600.75830500132,
+        "nonfinite_values": 0,
+        "invalid_values": 16384,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/add",
+        "minimum": -188612.89870884683,
+        "maximum": 166112.95066557053,
+        "nonfinite_values": 0,
+        "invalid_values": 16384,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/conv1",
+        "minimum": -78408.4727206347,
+        "maximum": 80425.31116641591,
+        "nonfinite_values": 0,
+        "invalid_values": 8192,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/add",
+        "minimum": -78833.53583023681,
+        "maximum": 79337.80781917258,
+        "nonfinite_values": 0,
+        "invalid_values": 8192,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/conv1",
+        "minimum": -87601.34529148262,
+        "maximum": 88984.3488503214,
+        "nonfinite_values": 0,
+        "invalid_values": 8191,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/add",
+        "minimum": -181755.7966532859,
+        "maximum": 173081.9328841699,
+        "nonfinite_values": 0,
+        "invalid_values": 8192,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/conv1",
+        "minimum": -79120.02286479299,
+        "maximum": 98286.47421984408,
+        "nonfinite_values": 0,
+        "invalid_values": 8192,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/add",
+        "minimum": -189907.19987636758,
+        "maximum": 190928.7092610076,
+        "nonfinite_values": 0,
+        "invalid_values": 8192,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/conv1",
+        "minimum": -66634.32559436616,
+        "maximum": 57822.46495046832,
+        "nonfinite_values": 0,
+        "invalid_values": 4095,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/add",
+        "minimum": -60634.70504644511,
+        "maximum": 55662.413469633146,
+        "nonfinite_values": 0,
+        "invalid_values": 4096,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/conv1",
+        "minimum": -59186.22189906313,
+        "maximum": 55856.61296198787,
+        "nonfinite_values": 0,
+        "invalid_values": 4096,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/add",
+        "minimum": -157459.8169826792,
+        "maximum": 153504.67174047118,
+        "nonfinite_values": 0,
+        "invalid_values": 4096,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/conv1",
+        "minimum": -57610.00223526369,
+        "maximum": 56750.449765898644,
+        "nonfinite_values": 0,
+        "invalid_values": 4096,
+        "first_invalid_index": 0
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/add",
+        "minimum": -151732.81824001783,
+        "maximum": 216335.4785493884,
+        "nonfinite_values": 0,
+        "invalid_values": 4096,
+        "first_invalid_index": 0
+      }
+    ]
+  },
+  {
+    "report": "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-35.jsonl",
+    "checks": [
+      {
+        "image": 0,
+        "input_checkpoint": "conv0",
+        "minimum": -0.12092266641608583,
+        "maximum": 0.138544307629908,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/conv1",
+        "minimum": -0.1306515130737769,
+        "maximum": 0.13127747190639197,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/add",
+        "minimum": -0.16674674293240357,
+        "maximum": 0.2413675311180559,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/conv1",
+        "minimum": -0.11382218612777567,
+        "maximum": 0.09176065774860334,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/add",
+        "minimum": -0.1668837811875474,
+        "maximum": 0.32341975914926696,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/conv1",
+        "minimum": -0.16721388245909505,
+        "maximum": 0.13532954615539747,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/add",
+        "minimum": -0.13305353035759498,
+        "maximum": 0.23329272379380891,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/conv1",
+        "minimum": -0.11134499083407322,
+        "maximum": 0.1143626555618588,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/add",
+        "minimum": -0.17894286790735106,
+        "maximum": 0.21731322231783917,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/conv1",
+        "minimum": -0.1388633189260671,
+        "maximum": 0.10684557024419744,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/add",
+        "minimum": -0.15408323646185249,
+        "maximum": 0.23373035623944402,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/conv1",
+        "minimum": -0.1617924138647608,
+        "maximum": 0.10345036749642882,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/add",
+        "minimum": -0.1315574706751718,
+        "maximum": 0.25064143774684144,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/conv1",
+        "minimum": -0.10263070929325543,
+        "maximum": 0.10561509880988301,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/add",
+        "minimum": -0.11460033991167162,
+        "maximum": 0.1117520160521184,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/conv1",
+        "minimum": -0.13201063135868696,
+        "maximum": 0.11356255367825886,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/add",
+        "minimum": -0.19896482438550483,
+        "maximum": 0.16543529740259766,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/conv1",
+        "minimum": -0.07564616138295457,
+        "maximum": 0.043686134440925645,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/add",
+        "minimum": -0.40892039042382256,
+        "maximum": 0.3428495871632114,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      }
+    ]
+  },
+  {
+    "report": "/home/zijiand/cheddar/reports/historical-smoke/smoke-legacy-48.jsonl",
+    "checks": [
+      {
+        "image": 0,
+        "input_checkpoint": "conv0",
+        "minimum": -0.12092289270314138,
+        "maximum": 0.13854475326779483,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/conv1",
+        "minimum": -0.13133468766124334,
+        "maximum": 0.13163552296225103,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/add",
+        "minimum": -0.16857901458420385,
+        "maximum": 0.23973988400628876,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/conv1",
+        "minimum": -0.11294598602759483,
+        "maximum": 0.09210440833424205,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/add",
+        "minimum": -0.16758925271066646,
+        "maximum": 0.32361781518209326,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/conv1",
+        "minimum": -0.17034685287548818,
+        "maximum": 0.13899649051144494,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/add",
+        "minimum": -0.13037239475900125,
+        "maximum": 0.23631724681489177,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/conv1",
+        "minimum": -0.11175051033737453,
+        "maximum": 0.1169001166573541,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/add",
+        "minimum": -0.17977264469717935,
+        "maximum": 0.21121739112359209,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/conv1",
+        "minimum": -0.13682474302501063,
+        "maximum": 0.10710358960413162,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/add",
+        "minimum": -0.15286286680081923,
+        "maximum": 0.23065677488502864,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/conv1",
+        "minimum": -0.15767077993897183,
+        "maximum": 0.10089244300011878,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/add",
+        "minimum": -0.1360257253356812,
+        "maximum": 0.24724688021234426,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/conv1",
+        "minimum": -0.09848409231529999,
+        "maximum": 0.09855661237713198,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/add",
+        "minimum": -0.11503230579198363,
+        "maximum": 0.10951011508125846,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/conv1",
+        "minimum": -0.13590626010862117,
+        "maximum": 0.10992153162832032,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/add",
+        "minimum": -0.19874974213150323,
+        "maximum": 0.1707123433088476,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/conv1",
+        "minimum": -0.07536174294258369,
+        "maximum": 0.04337856194667462,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/add",
+        "minimum": -0.42227013161254734,
+        "maximum": 0.3425022206875246,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      }
+    ]
+  },
+  {
+    "report": "/home/zijiand/cheddar/reports/resnet-legacy-40.jsonl",
+    "checks": [
+      {
+        "image": 0,
+        "input_checkpoint": "conv0",
+        "minimum": -0.12092288507293075,
+        "maximum": 0.13854462433404902,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/conv1",
+        "minimum": -0.13045887431875408,
+        "maximum": 0.13216252094379996,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block1/add",
+        "minimum": -0.16945426062625324,
+        "maximum": 0.24053560895446804,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/conv1",
+        "minimum": -0.11336721554304227,
+        "maximum": 0.09226768408426761,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block2/add",
+        "minimum": -0.16682347370400047,
+        "maximum": 0.32638978941611685,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/conv1",
+        "minimum": -0.1712720818048202,
+        "maximum": 0.14099810330870974,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block3/add",
+        "minimum": -0.1310922803706157,
+        "maximum": 0.23640814821051023,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/conv1",
+        "minimum": -0.11132411555386364,
+        "maximum": 0.11529150753720241,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block4/add",
+        "minimum": -0.18064223342093824,
+        "maximum": 0.21292690823188246,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/conv1",
+        "minimum": -0.13751597394281678,
+        "maximum": 0.10737573132326833,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block5/add",
+        "minimum": -0.15186906041683265,
+        "maximum": 0.23163152482860308,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/conv1",
+        "minimum": -0.1568212429123882,
+        "maximum": 0.09864082199116672,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block6/add",
+        "minimum": -0.1333305940484974,
+        "maximum": 0.24715666617261348,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/conv1",
+        "minimum": -0.09744847178689477,
+        "maximum": 0.09798167173520869,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block7/add",
+        "minimum": -0.11447739462115271,
+        "maximum": 0.10889765202955509,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/conv1",
+        "minimum": -0.13206879102565883,
+        "maximum": 0.10850376920852299,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block8/add",
+        "minimum": -0.19110590256302698,
+        "maximum": 0.1712999417058206,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/conv1",
+        "minimum": -0.07749325527359886,
+        "maximum": 0.043881502405280555,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      },
+      {
+        "image": 0,
+        "input_checkpoint": "block9/add",
+        "minimum": -0.4423932651419699,
+        "maximum": 0.34783420594403835,
+        "nonfinite_values": 0,
+        "invalid_values": 0,
+        "first_invalid_index": null
+      }
+    ]
+  }
+]

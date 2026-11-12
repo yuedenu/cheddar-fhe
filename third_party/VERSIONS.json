@@ -1,0 +1,9 @@
+{
+  "rmm": "be379e5fb4c9fc2bdd82d4cae5a0216e6f5c3458",
+  "googletest": "58d77fa8070e8cec2dc1ed015d66b454c8d78850",
+  "jsoncpp": "9cca280a4d0ccf0c08f47a99aa71d1b0e52f8d03",
+  "cnpy": "4e8810b1a8637695171ed346ce68f6984e585ef4",
+  "eigen": "0fd6b4f71dd85b2009ee4d1aeb296e2c11fc9d68",
+  "spdlog": "100f30043f33277122e0991c83845a2617172ffd",
+  "thrust": "1ac51f2b6219ff17d15d93f2e0be85038556f346"
+}

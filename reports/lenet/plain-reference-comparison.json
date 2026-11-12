@@ -1,0 +1,6 @@
+{
+  "images": 1000,
+  "max_logit_error_cpp_vs_numpy_polynomial": 5.134781488891349e-15,
+  "max_logit_error_cpp_vs_numpy_exact": 1.249000902703301e-16,
+  "same_predictions": true
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "backend": "source",
+    "command": [
+      "/home/zijiand/cheddar/build-release/apps/lenet",
+      "--mode",
+      "all",
+      "--count",
+      "1000",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar/reports/lenet/acceptance/source.jsonl"
+    ],
+    "returncode": 0,
+    "report": "/home/zijiand/cheddar/reports/lenet/acceptance/source.jsonl",
+    "images": 1000,
+    "checks": 1230,
+    "failed_checks": 0,
+    "activation_ranges": 4000,
+    "invalid_activation_ranges": 0,
+    "executable_sha256": "47f1de554a71aac314f8fd2271d725696d509cc25e39dafa300b113abe84787f",
+    "libraries_sha256": {
+      "/home/zijiand/cheddar/build-release/libcheddar_source.so": "0c20f2a044ce32c6927c94c6f925e16b0f3e514fc6baab1d4e472100ac556898"
+    },
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1000,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 06:45:59",
+      "executable": "/home/zijiand/cheddar/build-release/apps/lenet",
+      "kind": "environment",
+      "libraries": [
+        "7fa68c46c000-7fa68c4d3000 r--p 00000000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fa68c4d3000-7fa68c65d000 r-xp 00067000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fa68c65d000-7fa68cb98000 r--p 001f1000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fa68cb98000-7fa68cb99000 ---p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fa68cb99000-7fa68cb9e000 r--p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7fa68cb9e000-7fa68cba1000 rw-p 00731000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so"
+      ],
+      "mode": "all",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 10.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/lenet_weights"
+    },
+    "setup": {
+      "kind": "setup",
+      "model_and_keys_seconds": 176.065398626,
+      "runtime_seconds": 3.561151165
+    },
+    "accuracy": {
+      "actual_accuracy": 0.09,
+      "classification_pass": true,
+      "count": 1000,
+      "evaluated_images": 1000,
+      "exact_accuracy": 0.09,
+      "invalid_images": 0,
+      "kind": "accuracy",
+      "polynomial_accuracy": 0.09,
+      "seconds": 403.958840995,
+      "top1_agreement": 1.0
+    },
+    "benchmark": {
+      "correct": 0,
+      "decrypt_decode": {
+        "max_seconds": 0.000866176,
+        "mean_seconds": 0.0008177513000000001,
+        "median_seconds": 0.0008176195000000001,
+        "min_seconds": 0.000762326,
+        "samples": 10,
+        "stddev_seconds": 2.9807677635300602e-05
+      },
+      "encode_encrypt": {
+        "max_seconds": 0.044258942,
+        "mean_seconds": 0.04301244350000001,
+        "median_seconds": 0.042683526,
+        "min_seconds": 0.041914589,
+        "samples": 10,
+        "stddev_seconds": 0.0008569486140791932
+      },
+      "finite": true,
+      "image": 0,
+      "inference": {
+        "max_seconds": 0.205268849,
+        "mean_seconds": 0.2052030875,
+        "median_seconds": 0.20518961149999998,
+        "min_seconds": 0.205129747,
+        "samples": 10,
+        "stddev_seconds": 4.140492438164752e-05
+      },
+      "kind": "benchmark",
+      "polynomial_agreement": 10,
+      "repeats": 10,
+      "total": {
+        "max_seconds": 0.25026081899999997,
+        "mean_seconds": 0.24903328230000002,
+        "median_seconds": 0.2487596365,
+        "min_seconds": 0.247887978,
+        "samples": 10,
+        "stddev_seconds": 0.0008542980367369405
+      },
+      "warmup": 2
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    },
+    "complete": true,
+    "timing_valid": true
+  },
+  {
+    "backend": "legacy",
+    "command": [
+      "/home/zijiand/cheddar/build-source/apps/lenet_legacy",
+      "--mode",
+      "all",
+      "--count",
+      "1000",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar/reports/lenet/acceptance/legacy.jsonl"
+    ],
+    "returncode": 2,
+    "report": "/home/zijiand/cheddar/reports/lenet/acceptance/legacy.jsonl",
+    "images": 1000,
+    "checks": 1230,
+    "failed_checks": 89,
+    "activation_ranges": 4000,
+    "invalid_activation_ranges": 0,
+    "executable_sha256": "e5a39e232f241a81e66769a379a4dc88248122c754c68fdbfa5a37b26643262b",
+    "libraries_sha256": {
+      "/home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so": "5714ed333ffa7cc8a7aec9b0ecfa0520a48376b24942afad5dd7449ad67a7aa4"
+    },
+    "environment": {
+      "backend": "legacy-parfuse",
+      "compiler": "11.4.0",
+      "count": 1000,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 06:46:01",
+      "executable": "/home/zijiand/cheddar/build-source/apps/lenet_legacy",
+      "kind": "environment",
+      "libraries": [
+        "7f80a9b82000-7f80a9bb4000 r--p 00000000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f80a9bb4000-7f80a9d25000 r-xp 00032000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f80a9d25000-7f80abb12000 r--p 001a3000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f80abb12000-7f80abb13000 ---p 01f90000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f80abb13000-7f80abb17000 r--p 01f90000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so",
+        "7f80abb17000-7f80abb1a000 rw-p 01f94000 103:04 30027619                  /home/zijiand/cheddar/legacy/snapshot/lib/libcheddar.so"
+      ],
+      "mode": "all",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 10.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/lenet_weights"
+    },
+    "setup": {
+      "kind": "setup",
+      "model_and_keys_seconds": 169.153602375,
+      "runtime_seconds": 0.810894856
+    },
+    "accuracy": {
+      "actual_accuracy": 0.09,
+      "classification_pass": true,
+      "count": 1000,
+      "evaluated_images": 1000,
+      "exact_accuracy": 0.09,
+      "invalid_images": 0,
+      "kind": "accuracy",
+      "polynomial_accuracy": 0.09,
+      "seconds": 424.97058005,
+      "top1_agreement": 1.0
+    },
+    "benchmark": {
+      "correct": 0,
+      "decrypt_decode": {
+        "max_seconds": 0.000800948,
+        "mean_seconds": 0.000764203,
+        "median_seconds": 0.0007579435,
+        "min_seconds": 0.000737756,
+        "samples": 10,
+        "stddev_seconds": 1.9881810083591497e-05
+      },
+      "encode_encrypt": {
+        "max_seconds": 0.047597406,
+        "mean_seconds": 0.042604128000000005,
+        "median_seconds": 0.042150629499999995,
+        "min_seconds": 0.041655236,
+        "samples": 10,
+        "stddev_seconds": 0.0016818709266103635
+      },
+      "finite": true,
+      "image": 0,
+      "inference": {
+        "max_seconds": 0.214130393,
+        "mean_seconds": 0.2140673767,
+        "median_seconds": 0.21407670350000002,
+        "min_seconds": 0.213974987,
+        "samples": 10,
+        "stddev_seconds": 4.116768256302125e-05
+      },
+      "kind": "benchmark",
+      "polynomial_agreement": 10,
+      "repeats": 10,
+      "total": {
+        "max_seconds": 0.262430334,
+        "mean_seconds": 0.25743570769999996,
+        "median_seconds": 0.25698935349999996,
+        "min_seconds": 0.256480671,
+        "samples": 10,
+        "stddev_seconds": 0.0016819935370022679
+      },
+      "warmup": 2
+    },
+    "summary": {
+      "failed_comparisons": 89,
+      "kind": "summary",
+      "pass": false
+    },
+    "complete": true,
+    "timing_valid": true
+  }
+]

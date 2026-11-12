@@ -1,0 +1,34 @@
+[
+  {
+    "relu_range": 10.0,
+    "timing_valid": true,
+    "inference": {
+      "source_median_seconds": 0.934167796,
+      "legacy_median_seconds": 1.1793754865000001,
+      "source_over_legacy": 0.7920868346791774,
+      "change_percent": -20.79131653208226
+    },
+    "total": {
+      "source_median_seconds": 0.9774588935,
+      "legacy_median_seconds": 1.2225401210000002,
+      "source_over_legacy": 0.799531137432503,
+      "change_percent": -20.046886256749698
+    }
+  },
+  {
+    "relu_range": 16.0,
+    "timing_valid": true,
+    "inference": {
+      "source_median_seconds": 1.0985021405,
+      "legacy_median_seconds": 1.1799534205,
+      "source_over_legacy": 0.9309707666549367,
+      "change_percent": -6.902923334506328
+    },
+    "total": {
+      "source_median_seconds": 1.1416163185,
+      "legacy_median_seconds": 1.224714483,
+      "source_over_legacy": 0.9321489492828998,
+      "change_percent": -6.785105071710018
+    }
+  }
+]

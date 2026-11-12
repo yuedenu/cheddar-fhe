@@ -1,0 +1,7 @@
+#pragma once
+#include <vector>
+namespace cheddar::cnn {
+inline const std::vector<double> relu_cheb1 = {0x0.0p+0, 0x1.4634e23b19466p-1, 0x0.0p+0, -0x1.b5b85726096d8p-3, 0x0.0p+0, 0x1.0a13f5647f418p-3, 0x0.0p+0, -0x1.83ec8d7daa630p-4, 0x0.0p+0, 0x1.368256ee391f0p-4, 0x0.0p+0, -0x1.081575a6fe3f0p-4, 0x0.0p+0, 0x1.d661606463ae0p-5, 0x0.0p+0, -0x1.01bab2990076ep-1};
+inline const std::vector<double> relu_cheb2 = {0x0.0p+0, -0x1.452f870be047cp-6, 0x0.0p+0, -0x1.0dc674f99078dp+0, 0x0.0p+0, -0x1.25adf4cd3b053p-1, 0x0.0p+0, -0x1.8c4cd276783ffp-1, 0x0.0p+0, -0x1.e7946d0f741d5p-2, 0x0.0p+0, -0x1.159dab82315acp-1, 0x0.0p+0, -0x1.30f1ef0843f5fp-2, 0x0.0p+0, -0x1.17c0a9740d543p-1};
+inline const std::vector<double> relu_cheb3 = {0x0.0p+0, 0x1.43419f667d803p-1, 0x0.0p+0, -0x1.a6c0777141d43p-3, 0x0.0p+0, 0x1.c9c433d2b071ep-4, 0x0.0p+0, -0x1.34914b208af40p-4, 0x0.0p+0, 0x1.83bfc0cee62a0p-5, 0x0.0p+0, -0x1.20287c37ecc42p-5, 0x0.0p+0, 0x1.5a2cc6da9b270p-6, 0x0.0p+0, -0x1.0696fb6b00400p-6, 0x0.0p+0, 0x1.16852c153e07bp-7, 0x0.0p+0, -0x1.a5c3035162c0bp-8, 0x0.0p+0, 0x1.66cd5f3de81bcp-9, 0x0.0p+0, -0x1.0ebbf41e609d8p-9, 0x0.0p+0, 0x1.268fdd3acfb56p-11, 0x0.0p+0, -0x1.cf4ef3c0feb24p-12};
+}

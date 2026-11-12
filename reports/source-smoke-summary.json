@@ -1,0 +1,314 @@
+[
+  {
+    "report": "/home/zijiand/cheddar/reports/actual-slots-30/smoke-source-30.jsonl",
+    "complete": true,
+    "passed": false,
+    "images": 1,
+    "checks": 100,
+    "failed_checks": 6,
+    "activation_ranges": 0,
+    "invalid_activation_ranges": 0,
+    "invalid_images": 0,
+    "max_logit_error": 0.0024984348179618587,
+    "max_layer_error": 0.0015549992070610363,
+    "failures": [
+      {
+        "atol": 0.001,
+        "image": 0,
+        "kind": "comparison",
+        "level": 0,
+        "max_abs": 0.0010856933339892707,
+        "max_tolerance_ratio": 1.0746194114547778,
+        "name": "block9/conv2",
+        "num_slots": 4096,
+        "pass": false,
+        "rtol": 0.001,
+        "scale": 1073741824.0000002
+      },
+      {
+        "atol": 0.001,
+        "image": 0,
+        "kind": "comparison",
+        "level": 0,
+        "max_abs": 0.0010939377113648695,
+        "max_tolerance_ratio": 1.0827796973161852,
+        "name": "block9/conv2/slots",
+        "num_slots": 4096,
+        "pass": false,
+        "rtol": 0.001,
+        "scale": 1073741824.0000002
+      },
+      {
+        "atol": 0.001,
+        "image": 0,
+        "kind": "comparison",
+        "level": 0,
+        "max_abs": 0.0012503497004577036,
+        "max_tolerance_ratio": 1.23045456045034,
+        "name": "block9/add",
+        "num_slots": 4096,
+        "pass": false,
+        "rtol": 0.001,
+        "scale": 1073741824.0000002
+      },
+      {
+        "atol": 0.001,
+        "image": 0,
+        "kind": "comparison",
+        "level": 0,
+        "max_abs": 0.0012503497004577036,
+        "max_tolerance_ratio": 1.23045456045034,
+        "name": "block9/add/slots",
+        "num_slots": 4096,
+        "pass": false,
+        "rtol": 0.001,
+        "scale": 1073741824.0000002
+      },
+      {
+        "atol": 0.001,
+        "image": 0,
+        "kind": "comparison",
+        "level": 2,
+        "max_abs": 0.0012558574733124543,
+        "max_tolerance_ratio": 1.2358756309722416,
+        "name": "block9/relu2",
+        "num_slots": 4096,
+        "pass": false,
+        "rtol": 0.001,
+        "scale": 1073643507.2490921
+      },
+      {
+        "atol": 0.001,
+        "image": 0,
+        "kind": "comparison",
+        "level": 2,
+        "max_abs": 0.0012604432806629581,
+        "max_tolerance_ratio": 1.2403884739287536,
+        "name": "block9/relu2/slots",
+        "num_slots": 4096,
+        "pass": false,
+        "rtol": 0.001,
+        "scale": 1073643507.2490921
+      }
+    ],
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 16 2026 01:36:41",
+      "executable": "/home/zijiand/cheddar/build-clean/apps/resnet",
+      "kind": "environment",
+      "libraries": [
+        "7f9a1497b000-7f9a149e1000 r--p 00000000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f9a149e1000-7f9a14b6a000 r-xp 00066000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f9a14b6a000-7f9a150a5000 r--p 001ef000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f9a150a5000-7f9a150a6000 ---p 0072a000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f9a150a6000-7f9a150ab000 r--p 0072a000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f9a150ab000-7f9a150ae000 rw-p 0072f000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so"
+      ],
+      "mode": "full",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_30.json",
+      "relu_range": 10.0,
+      "start": 0
+    },
+    "last_image": 0,
+    "accuracy": {
+      "actual_accuracy": 1.0,
+      "classification_pass": true,
+      "count": 1,
+      "evaluated_images": 1,
+      "exact_accuracy": 1.0,
+      "invalid_images": 0,
+      "kind": "accuracy",
+      "polynomial_accuracy": 1.0,
+      "seconds": 4.212965271,
+      "top1_agreement": 1.0
+    },
+    "summary": {
+      "failed_comparisons": 6,
+      "kind": "summary",
+      "pass": false
+    }
+  },
+  {
+    "report": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-35.jsonl",
+    "complete": true,
+    "passed": true,
+    "images": 1,
+    "checks": 100,
+    "failed_checks": 0,
+    "activation_ranges": 0,
+    "invalid_activation_ranges": 0,
+    "invalid_images": 0,
+    "max_logit_error": 0.00016219765923786156,
+    "max_layer_error": 7.501698008005597e-05,
+    "failures": [],
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "kind": "environment",
+      "libraries": [
+        "7f9a6ef1f000-7f9a6ef85000 r--p 00000000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f9a6ef85000-7f9a6f10e000 r-xp 00066000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f9a6f10e000-7f9a6f649000 r--p 001ef000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f9a6f649000-7f9a6f64a000 ---p 0072a000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f9a6f64a000-7f9a6f64f000 r--p 0072a000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f9a6f64f000-7f9a6f652000 rw-p 0072f000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so"
+      ],
+      "mode": "full",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_35.json",
+      "relu_range": 10.0,
+      "start": 0
+    },
+    "last_image": 0,
+    "accuracy": {
+      "actual_accuracy": 1.0,
+      "classification_pass": true,
+      "count": 1,
+      "exact_accuracy": 1.0,
+      "invalid_images": 0,
+      "kind": "accuracy",
+      "polynomial_accuracy": 1.0,
+      "seconds": 3.371353063,
+      "top1_agreement": 1.0
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    }
+  },
+  {
+    "report": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-40.jsonl",
+    "complete": true,
+    "passed": true,
+    "images": 1,
+    "checks": 100,
+    "failed_checks": 0,
+    "activation_ranges": 0,
+    "invalid_activation_ranges": 0,
+    "invalid_images": 0,
+    "max_logit_error": 4.502226030866918e-05,
+    "max_layer_error": 2.4994194992689067e-05,
+    "failures": [],
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "kind": "environment",
+      "libraries": [
+        "7f69bcfad000-7f69bd013000 r--p 00000000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f69bd013000-7f69bd19c000 r-xp 00066000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f69bd19c000-7f69bd6d7000 r--p 001ef000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f69bd6d7000-7f69bd6d8000 ---p 0072a000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f69bd6d8000-7f69bd6dd000 r--p 0072a000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7f69bd6dd000-7f69bd6e0000 rw-p 0072f000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so"
+      ],
+      "mode": "full",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 10.0,
+      "start": 0
+    },
+    "last_image": 0,
+    "accuracy": {
+      "actual_accuracy": 1.0,
+      "classification_pass": true,
+      "count": 1,
+      "exact_accuracy": 1.0,
+      "invalid_images": 0,
+      "kind": "accuracy",
+      "polynomial_accuracy": 1.0,
+      "seconds": 4.036270748,
+      "top1_agreement": 1.0
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    }
+  },
+  {
+    "report": "/home/zijiand/cheddar/reports/clean-smoke/smoke-source-48.jsonl",
+    "complete": true,
+    "passed": true,
+    "images": 1,
+    "checks": 100,
+    "failed_checks": 0,
+    "activation_ranges": 0,
+    "invalid_activation_ranges": 0,
+    "invalid_images": 0,
+    "max_logit_error": 1.4990506054246566e-05,
+    "max_layer_error": 1.1104499388236988e-05,
+    "failures": [],
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 15 2026 07:03:48",
+      "executable": "/home/zijiand/cheddar/build-clean/apps/resnet",
+      "kind": "environment",
+      "libraries": [
+        "7fab693fa000-7fab69460000 r--p 00000000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7fab69460000-7fab695e9000 r-xp 00066000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7fab695e9000-7fab69b24000 r--p 001ef000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7fab69b24000-7fab69b25000 ---p 0072a000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7fab69b25000-7fab69b2a000 r--p 0072a000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so",
+        "7fab69b2a000-7fab69b2d000 rw-p 0072f000 103:04 22327459                  /home/zijiand/cheddar/build-clean/libcheddar_source.so"
+      ],
+      "mode": "full",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_48.json",
+      "relu_range": 10.0,
+      "start": 0
+    },
+    "last_image": 0,
+    "accuracy": {
+      "actual_accuracy": 1.0,
+      "classification_pass": true,
+      "count": 1,
+      "exact_accuracy": 1.0,
+      "invalid_images": 0,
+      "kind": "accuracy",
+      "polynomial_accuracy": 1.0,
+      "seconds": 4.492286211,
+      "top1_agreement": 1.0
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    }
+  }
+]

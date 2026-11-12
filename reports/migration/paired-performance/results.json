@@ -1,0 +1,413 @@
+[
+  {
+    "model": "resnet",
+    "label": "original",
+    "returncode": 0,
+    "valid": true,
+    "command": [
+      "/home/zijiand/cheddar/build-release/apps/resnet",
+      "--mode",
+      "benchmark",
+      "--count",
+      "1",
+      "--relu-range",
+      "16",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/paired-performance/resnet-original.jsonl"
+    ],
+    "seconds": 311.4695739746094,
+    "executable_sha256": "d4cae5c905ff4a91e29eea2f5fe56034ef7613a0ad7c13f0e50b861bc164f23d",
+    "library_sha256": "0c20f2a044ce32c6927c94c6f925e16b0f3e514fc6baab1d4e472100ac556898",
+    "images": 0,
+    "checks": 110,
+    "failed_checks": 0,
+    "activation_ranges": 19,
+    "invalid_activation_ranges": 0,
+    "max_logit_error": 8.415967447922279e-05,
+    "max_layer_error": 0.00014881442451120108,
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 03:03:54",
+      "executable": "/home/zijiand/cheddar/build-release/apps/resnet",
+      "kind": "environment",
+      "libraries": [
+        "7f9055fd2000-7f9056039000 r--p 00000000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f9056039000-7f90561c3000 r-xp 00067000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f90561c3000-7f90566fe000 r--p 001f1000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f90566fe000-7f90566ff000 ---p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f90566ff000-7f9056704000 r--p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f9056704000-7f9056707000 rw-p 00731000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so"
+      ],
+      "mode": "benchmark",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 16.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/weights"
+    },
+    "benchmark_setup": {
+      "image": 0,
+      "kind": "benchmark_setup",
+      "label": 3,
+      "model_and_keys_seconds": 291.124741694,
+      "repeats": 10,
+      "runtime_seconds": 0.996736089,
+      "timing": "synchronized steady_clock wall time; same encrypted graph; no plaintext reference, intermediate decryption or report I/O in inference interval",
+      "warmup": 2
+    },
+    "benchmark": {
+      "correct": 10,
+      "decrypt_decode": {
+        "max_seconds": 0.000645746,
+        "mean_seconds": 0.0002592773,
+        "median_seconds": 0.00021309,
+        "min_seconds": 0.000209141,
+        "samples": 10,
+        "stddev_seconds": 0.0001290037676612974
+      },
+      "encode_encrypt": {
+        "max_seconds": 0.041694123,
+        "mean_seconds": 0.041206861799999994,
+        "median_seconds": 0.0412019135,
+        "min_seconds": 0.040845215,
+        "samples": 10,
+        "stddev_seconds": 0.00022750925187288592
+      },
+      "finite": true,
+      "image": 0,
+      "inference": {
+        "max_seconds": 1.78205446,
+        "mean_seconds": 1.0982908174,
+        "median_seconds": 0.93015291,
+        "min_seconds": 0.929580334,
+        "samples": 10,
+        "stddev_seconds": 0.2594872576797052
+      },
+      "kind": "benchmark",
+      "polynomial_agreement": 10,
+      "repeats": 10,
+      "total": {
+        "max_seconds": 1.824037443,
+        "mean_seconds": 1.1397569565,
+        "median_seconds": 0.971845182,
+        "min_seconds": 0.9708231979999999,
+        "samples": 10,
+        "stddev_seconds": 0.2596311158876037
+      },
+      "warmup": 2
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    },
+    "all_1000_images": false
+  },
+  {
+    "model": "resnet",
+    "label": "migrated",
+    "returncode": 0,
+    "valid": true,
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+      "--mode",
+      "benchmark",
+      "--count",
+      "1",
+      "--relu-range",
+      "16",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/paired-performance/resnet-migrated.jsonl"
+    ],
+    "seconds": 320.47533988952637,
+    "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+    "library_sha256": "921c23ed54744fda8c6e875250f0b8ad3cbb9bd3840ca7148a6c942dced800b1",
+    "images": 0,
+    "checks": 110,
+    "failed_checks": 0,
+    "activation_ranges": 19,
+    "invalid_activation_ranges": 0,
+    "max_logit_error": 7.799925249285522e-05,
+    "max_layer_error": 9.85905842751933e-05,
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar-fhe/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 30 2026 06:34:04",
+      "executable": "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+      "kind": "environment",
+      "libraries": [
+        "7fa999138000-7fa99919f000 r--p 00000000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+        "7fa99919f000-7fa999329000 r-xp 00067000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+        "7fa999329000-7fa999864000 r--p 001f1000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+        "7fa999864000-7fa999865000 ---p 0072c000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+        "7fa999865000-7fa99986a000 r--p 0072c000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+        "7fa99986a000-7fa99986d000 rw-p 00731000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so"
+      ],
+      "mode": "benchmark",
+      "params": "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_40.json",
+      "relu_range": 16.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar-fhe/data/weights"
+    },
+    "benchmark_setup": {
+      "image": 0,
+      "kind": "benchmark_setup",
+      "label": 3,
+      "model_and_keys_seconds": 296.785617197,
+      "repeats": 10,
+      "runtime_seconds": 0.869262995,
+      "timing": "synchronized steady_clock wall time; same encrypted graph; no plaintext reference, intermediate decryption or report I/O in inference interval",
+      "warmup": 2
+    },
+    "benchmark": {
+      "correct": 10,
+      "decrypt_decode": {
+        "max_seconds": 0.001575712,
+        "mean_seconds": 0.0009472407,
+        "median_seconds": 0.001027159,
+        "min_seconds": 0.000255814,
+        "samples": 10,
+        "stddev_seconds": 0.00044805901348238714
+      },
+      "encode_encrypt": {
+        "max_seconds": 0.043610089,
+        "mean_seconds": 0.0421177211,
+        "median_seconds": 0.041972326500000004,
+        "min_seconds": 0.04121847,
+        "samples": 10,
+        "stddev_seconds": 0.0006609790577557574
+      },
+      "finite": true,
+      "image": 0,
+      "inference": {
+        "max_seconds": 1.507662561,
+        "mean_seconds": 1.3669898852000002,
+        "median_seconds": 1.386863993,
+        "min_seconds": 1.250265853,
+        "samples": 10,
+        "stddev_seconds": 0.07889006060812755
+      },
+      "kind": "benchmark",
+      "polynomial_agreement": 10,
+      "repeats": 10,
+      "total": {
+        "max_seconds": 1.5507997230000001,
+        "mean_seconds": 1.410054847,
+        "median_seconds": 1.429591128,
+        "min_seconds": 1.29521782,
+        "samples": 10,
+        "stddev_seconds": 0.07859540914942517
+      },
+      "warmup": 2
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    },
+    "all_1000_images": false
+  },
+  {
+    "model": "lenet",
+    "label": "original",
+    "returncode": -7,
+    "valid": false,
+    "command": [
+      "/home/zijiand/cheddar/build-release/apps/lenet",
+      "--mode",
+      "benchmark",
+      "--count",
+      "1",
+      "--relu-range",
+      "10",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/paired-performance/lenet-original.jsonl"
+    ],
+    "seconds": 126.07828044891357,
+    "executable_sha256": "47f1de554a71aac314f8fd2271d725696d509cc25e39dafa300b113abe84787f",
+    "library_sha256": "0c20f2a044ce32c6927c94c6f925e16b0f3e514fc6baab1d4e472100ac556898",
+    "images": 0,
+    "checks": 0,
+    "failed_checks": 0,
+    "activation_ranges": 0,
+    "invalid_activation_ranges": 0,
+    "max_logit_error": 0.0,
+    "max_layer_error": 0.0,
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 06:45:59",
+      "executable": "/home/zijiand/cheddar/build-release/apps/lenet",
+      "kind": "environment",
+      "libraries": [
+        "7f35cdff5000-7f35ce05c000 r--p 00000000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f35ce05c000-7f35ce1e6000 r-xp 00067000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f35ce1e6000-7f35ce721000 r--p 001f1000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f35ce721000-7f35ce722000 ---p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f35ce722000-7f35ce727000 r--p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f35ce727000-7f35ce72a000 rw-p 00731000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so"
+      ],
+      "mode": "benchmark",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 10.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/lenet_weights"
+    },
+    "all_1000_images": false
+  },
+  {
+    "model": "lenet",
+    "label": "migrated",
+    "returncode": 0,
+    "valid": true,
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/lenet",
+      "--mode",
+      "benchmark",
+      "--count",
+      "1",
+      "--relu-range",
+      "10",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/paired-performance/lenet-migrated.jsonl"
+    ],
+    "seconds": 163.13178253173828,
+    "executable_sha256": "f4e7633912cd915169120b14d321d050f0c527bc8971b35e403dd8d726516511",
+    "library_sha256": "921c23ed54744fda8c6e875250f0b8ad3cbb9bd3840ca7148a6c942dced800b1",
+    "images": 0,
+    "checks": 33,
+    "failed_checks": 0,
+    "activation_ranges": 4,
+    "invalid_activation_ranges": 0,
+    "max_logit_error": 9.060970068038021e-07,
+    "max_layer_error": 1.8291497254881509e-06,
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1,
+      "data": "/home/zijiand/cheddar-fhe/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 30 2026 06:34:05",
+      "executable": "/home/zijiand/cheddar-fhe/build-release/apps/lenet",
+      "kind": "environment",
+      "libraries": [
+        "7febb5a84000-7febb5aeb000 r--p 00000000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+        "7febb5aeb000-7febb5c75000 r-xp 00067000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+        "7febb5c75000-7febb61b0000 r--p 001f1000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+        "7febb61b0000-7febb61b1000 ---p 0072c000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+        "7febb61b1000-7febb61b6000 r--p 0072c000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so",
+        "7febb61b6000-7febb61b9000 rw-p 00731000 103:04 24024083                  /home/zijiand/cheddar-fhe/build-release/libcheddar_source.so"
+      ],
+      "mode": "benchmark",
+      "params": "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_40.json",
+      "relu_range": 10.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar-fhe/data/lenet_weights"
+    },
+    "setup": {
+      "kind": "setup",
+      "model_and_keys_seconds": 154.88290239,
+      "runtime_seconds": 1.281102295
+    },
+    "benchmark": {
+      "correct": 0,
+      "decrypt_decode": {
+        "max_seconds": 0.002784427,
+        "mean_seconds": 0.0011870082,
+        "median_seconds": 0.0011727439999999999,
+        "min_seconds": 0.000731982,
+        "samples": 10,
+        "stddev_seconds": 0.0005652485531590151
+      },
+      "encode_encrypt": {
+        "max_seconds": 0.043357128,
+        "mean_seconds": 0.041952975399999995,
+        "median_seconds": 0.041711906,
+        "min_seconds": 0.04135324,
+        "samples": 10,
+        "stddev_seconds": 0.000620162940601774
+      },
+      "finite": true,
+      "image": 0,
+      "inference": {
+        "max_seconds": 0.383870214,
+        "mean_seconds": 0.2705334362,
+        "median_seconds": 0.2526566765,
+        "min_seconds": 0.249897154,
+        "samples": 10,
+        "stddev_seconds": 0.039244649481677135
+      },
+      "kind": "benchmark",
+      "polynomial_agreement": 10,
+      "repeats": 10,
+      "total": {
+        "max_seconds": 0.428428549,
+        "mean_seconds": 0.3136734198,
+        "median_seconds": 0.295733547,
+        "min_seconds": 0.293659619,
+        "samples": 10,
+        "stddev_seconds": 0.03962432795513868
+      },
+      "warmup": 2
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    },
+    "all_1000_images": false
+  }
+]

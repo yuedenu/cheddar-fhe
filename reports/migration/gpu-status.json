@@ -1,0 +1,248 @@
+[
+  {
+    "name": "basic-40",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/basic_test",
+      "--gtest_filter=*bootparam_40_json",
+      "--gtest_output=xml:/home/zijiand/cheddar-fhe/reports/migration/basic-40.xml"
+    ],
+    "state": "completed",
+    "started": 1793342261.3370652,
+    "executable_sha256": "3e4c9a8bc735a466330b90d4245c9041a52d6e5186e75463207ba4e766816996",
+    "returncode": 0,
+    "seconds": 2139.204452753067
+  },
+  {
+    "name": "boot-40",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/boot_test",
+      "--gtest_filter=*Testbed32*bootparam_40_json",
+      "--gtest_output=xml:/home/zijiand/cheddar-fhe/reports/migration/boot-40.xml"
+    ],
+    "state": "completed",
+    "started": 1793344400.5431867,
+    "executable_sha256": "89d485b0bb066f49ccae5934eec633e54b9a9561e31e5926445c9b1c4806e105",
+    "returncode": 0,
+    "seconds": 72.98818778991699
+  },
+  {
+    "name": "primitives-40",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/primitive_test",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/primitives-40.jsonl"
+    ],
+    "state": "completed",
+    "started": 1793344473.5322993,
+    "executable_sha256": "0da0c1fda585488e4d39a1b9e96d9d666fbfeff791863f5f249a7ef653d81df3",
+    "returncode": 0,
+    "seconds": 5.289111375808716
+  },
+  {
+    "name": "operators-40",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+      "--mode",
+      "ops",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/operators-40.jsonl"
+    ],
+    "state": "completed",
+    "started": 1793344478.8243184,
+    "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+    "returncode": 0,
+    "seconds": 189.63864254951477
+  },
+  {
+    "name": "relu-40",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+      "--mode",
+      "relu",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/relu-40.jsonl"
+    ],
+    "state": "completed",
+    "started": 1793344668.4639606,
+    "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+    "returncode": 0,
+    "seconds": 68.40084838867188
+  },
+  {
+    "name": "smoke-30",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_30.json",
+      "--count",
+      "1",
+      "--relu-range",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/smoke-30.jsonl"
+    ],
+    "state": "completed",
+    "started": 1793344736.8658955,
+    "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+    "returncode": 0,
+    "seconds": 370.1907925605774
+  },
+  {
+    "name": "smoke-35",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_35.json",
+      "--count",
+      "1",
+      "--relu-range",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/smoke-35.jsonl"
+    ],
+    "state": "completed",
+    "started": 1793345107.0580108,
+    "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+    "returncode": 0,
+    "seconds": 362.31649947166443
+  },
+  {
+    "name": "smoke-40",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_40.json",
+      "--count",
+      "1",
+      "--relu-range",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/smoke-40.jsonl"
+    ],
+    "state": "completed",
+    "started": 1793345469.3756723,
+    "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+    "returncode": 0,
+    "seconds": 327.9179925918579
+  },
+  {
+    "name": "smoke-48",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+      "--params",
+      "/home/zijiand/cheddar-fhe/unittest/parameters/resnetparam_48.json",
+      "--count",
+      "1",
+      "--relu-range",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/smoke-48.jsonl"
+    ],
+    "state": "completed",
+    "started": 1793345797.2953632,
+    "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+    "returncode": 0,
+    "seconds": 1004.011029958725
+  },
+  {
+    "name": "resnet-1000",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+      "--mode",
+      "full",
+      "--count",
+      "1000",
+      "--layers",
+      "10",
+      "--relu-range",
+      "16",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/resnet-1000.jsonl"
+    ],
+    "state": "completed",
+    "started": 1793346801.3075616,
+    "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+    "returncode": 0,
+    "seconds": 2379.27113199234
+  },
+  {
+    "name": "resnet-benchmark",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/resnet",
+      "--mode",
+      "benchmark",
+      "--count",
+      "1",
+      "--relu-range",
+      "16",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/resnet-benchmark.jsonl"
+    ],
+    "state": "completed",
+    "started": 1793349180.5800905,
+    "executable_sha256": "66f4ff74e3af4ca1caf2ac82beb4ac5f8880d0c57dbefd266433f63fc08c6860",
+    "returncode": 0,
+    "seconds": 338.80234599113464
+  },
+  {
+    "name": "lenet-1000",
+    "command": [
+      "/home/zijiand/cheddar-fhe/build-release/apps/lenet",
+      "--mode",
+      "all",
+      "--count",
+      "1000",
+      "--layers",
+      "10",
+      "--relu-range",
+      "10",
+      "--warmup",
+      "2",
+      "--repeats",
+      "10",
+      "--report",
+      "/home/zijiand/cheddar-fhe/reports/migration/lenet-1000.jsonl"
+    ],
+    "state": "completed",
+    "started": 1793352034.419879,
+    "executable_sha256": "f4e7633912cd915169120b14d321d050f0c527bc8971b35e403dd8d726516511",
+    "returncode": 0,
+    "seconds": 673.9919390678406
+  },
+  {
+    "name": "resnet-comparison",
+    "command": [
+      "/usr/bin/python3",
+      "/home/zijiand/cheddar-fhe/scripts/compare_reports.py",
+      "/home/zijiand/cheddar-fhe/reports/migration/resnet-1000.jsonl",
+      "/home/zijiand/cheddar-fhe/reports/release-1000/1000-source-40.jsonl",
+      "--output",
+      "/home/zijiand/cheddar-fhe/reports/migration/resnet-comparison.json"
+    ],
+    "state": "completed",
+    "started": 1793352708.4131422,
+    "executable_sha256": "d6bca2b84e73c7775a0dd5e6a76899cfe4ee62863d7c8f88513811d1fda23f49",
+    "returncode": 0,
+    "seconds": 5.552842140197754
+  },
+  {
+    "name": "lenet-comparison",
+    "command": [
+      "/usr/bin/python3",
+      "/home/zijiand/cheddar-fhe/scripts/compare_reports.py",
+      "/home/zijiand/cheddar-fhe/reports/migration/lenet-1000.jsonl",
+      "/home/zijiand/cheddar-fhe/reports/lenet/acceptance/source.jsonl",
+      "--output",
+      "/home/zijiand/cheddar-fhe/reports/migration/lenet-comparison.json"
+    ],
+    "state": "completed",
+    "started": 1793352713.9818695,
+    "executable_sha256": "d6bca2b84e73c7775a0dd5e6a76899cfe4ee62863d7c8f88513811d1fda23f49",
+    "returncode": 0,
+    "seconds": 0.4696073532104492
+  }
+]

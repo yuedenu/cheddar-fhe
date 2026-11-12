@@ -147,8 +147,9 @@ void HoistHandler<word>::CompilePlaintexts(ConstContextPtr<word> context,
 template <typename word>
 HoistHandler<word>::HoistHandler(ConstContextPtr<word> context,
                                  const PlainHoistMap &hoist_map, int pt_level,
-                                 double pt_scale, bool suppress_bs_swap)
-    : pt_level_(pt_level), pt_scale_(pt_scale) {
+                                 double pt_scale, bool suppress_bs_swap,
+                                 bool rescale_output)
+    : pt_level_(pt_level), pt_scale_(pt_scale),rescale_output_(rescale_output) {
   AssertTrue(hoist_map.size() > 0, "Hoist: hoist_map should not be empty");
   if (kOptimizeAutomorphism && hoist_map.size() == 1 &&
       hoist_map.begin()->first == 0 && !suppress_bs_swap) {
@@ -317,7 +318,12 @@ void HoistHandler<word>::BSFusedKeyMult(
   constexpr_for<1, max_log_beta_ + 1>([&](auto i) {
     constexpr int num_accum_padded = 1 << i;
     if (num_accum > num_accum_padded) return;
-    if (num_accum <= (1 << (i - 1))) return;
+    // The smallest specialization has capacity two and also handles one
+    // decomposition limb (common at ResNet levels 0--2). Skipping it leaves
+    // the rotated ciphertext buffers uninitialized.
+    if constexpr (i > 1) {
+      if (num_accum <= (1 << (i - 1))) return;
+    }
     kernel::BSFusedKernel<word, num_accum_padded><<<grid_dim, block_dim>>>(
         dst_b_d_ptrs.data(), dst_a_d_ptrs.data(), modup_d_ptrs.data(),
         key_b_d_ptrs.data(), key_a_d_ptrs.data(), num_accum, num_rotations,
@@ -429,7 +435,9 @@ void HoistHandler<word>::GSFusedPAccum(ConstContextPtr<word> context,
   constexpr_for<1, max_log_bs_ + 1>([&](auto i) {
     constexpr int num_bs_padded = 1 << i;
     if (num_bs > num_bs_padded) return;
-    if (num_bs <= (1 << (i - 1))) return;
+    if constexpr (i > 1) {
+      if (num_bs <= (1 << (i - 1))) return;
+    }
     kernel::GSFusedKernel<word, num_bs_padded><<<grid_dim, block_dim>>>(
         dst_b_d_ptrs.data(), dst_a_d_ptrs.data(), bx_d_ptrs.data(),
         ax_d_ptrs.data(), mx_d_ptrs.data(), num_bs, num_gs, primes, inv_primes);
@@ -489,7 +497,7 @@ void HoistHandler<word>::EvaluateFinalModDown(ConstContextPtr<word> context,
                                               Ct &res, Ct &final_accum,
                                               int input_num_slots,
                                               double input_scale) const {
-  NPInfo next_np = context->param_.LevelToNP(pt_level_ - 1);
+  NPInfo next_np = context->param_.LevelToNP(pt_level_ - (rescale_output_?1:0));
   auto &mod_switcher = context->mod_switch_handlers_.at(pt_level_);
 
   NPInfo np(next_np.num_main_, next_np.num_ter_, 0);
@@ -507,11 +515,16 @@ void HoistHandler<word>::EvaluateFinalModDown(ConstContextPtr<word> context,
 
   DvView<word> res_bx = res.BxView();
   DvView<word> res_ax = res.AxView();
-  mod_switcher.ModDownAndRescale(res_bx, final_accum.BxConstView());
-  mod_switcher.ModDownAndRescale(res_ax, final_accum.AxConstView());
+  if(rescale_output_) {
+    mod_switcher.ModDownAndRescale(res_bx, final_accum.BxConstView());
+    mod_switcher.ModDownAndRescale(res_ax, final_accum.AxConstView());
+  } else {
+    mod_switcher.ModDown(res_bx, final_accum.BxConstView());
+    mod_switcher.ModDown(res_ax, final_accum.AxConstView());
+  }
 
   res.SetScale(pt_scale_ * input_scale /
-               context->param_.GetRescalePrimeProd(pt_level_));
+               (rescale_output_?context->param_.GetRescalePrimeProd(pt_level_):1.));
 }
 
 template <typename word>
@@ -563,7 +576,8 @@ void HoistHandler<word>::EvaluateMinKSGiantStep(
     first = false;
     prev_gs_idx = gs_idx;
   }
-  context->Rescale(res, accum);
+  if(rescale_output_)context->Rescale(res, accum);
+  else context->Copy(res,accum);
 }
 
 template <typename word>

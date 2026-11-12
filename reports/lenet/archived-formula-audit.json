@@ -1,0 +1,16 @@
+{
+  "archived_source": "legacy/snapshot/unittest/LeNet_acc.cpp",
+  "input": "CIFAR-10 image 0 with documented normalization",
+  "conv1_old_formula_max_abs_error": 1.7270693871699319,
+  "channel_max_abs_errors": [
+    4.440892098500626e-16,
+    1.0675066690764394,
+    1.572139824126228,
+    1.4871345993471397,
+    1.7270693871699319,
+    1.4518619318361021
+  ],
+  "cause": "rotation omitted the negative output-channel destination offset; channels 3 through 5 read zero input planes",
+  "flatten_issue": "original code changes num_slots to 512 without generating repeated 512-slot copies",
+  "activation_issue": "archived composite-ReLU driver does not normalize feature values into the polynomial interval"
+}

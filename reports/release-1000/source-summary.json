@@ -1,0 +1,69 @@
+[
+  {
+    "report": "/home/zijiand/cheddar/reports/release-1000/1000-source-40.jsonl",
+    "complete": true,
+    "passed": true,
+    "images": 1000,
+    "checks": 1990,
+    "failed_checks": 0,
+    "activation_ranges": 19000,
+    "invalid_activation_ranges": 0,
+    "invalid_images": 0,
+    "max_logit_error": 0.0007390485206217878,
+    "max_layer_error": 0.0001301263420588894,
+    "failures": [],
+    "environment": {
+      "backend": "source",
+      "compiler": "11.4.0",
+      "count": 1000,
+      "data": "/home/zijiand/cheddar/data/cifar10/test_batch.bin",
+      "device": {
+        "compute_major": 8,
+        "compute_minor": 9,
+        "cuda_runtime_version": 11080,
+        "driver_version": 13030,
+        "memory_bytes": 50894602240,
+        "name": "NVIDIA GeForce RTX 4090"
+      },
+      "driver_build": "Oct 19 2026 03:03:54",
+      "executable": "/home/zijiand/cheddar/build-release/apps/resnet",
+      "kind": "environment",
+      "libraries": [
+        "7f3fa7e94000-7f3fa7efb000 r--p 00000000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f3fa7efb000-7f3fa8085000 r-xp 00067000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f3fa8085000-7f3fa85c0000 r--p 001f1000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f3fa85c0000-7f3fa85c1000 ---p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f3fa85c1000-7f3fa85c6000 r--p 0072c000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so",
+        "7f3fa85c6000-7f3fa85c9000 rw-p 00731000 103:04 19051070                  /home/zijiand/cheddar/build-release/libcheddar_source.so"
+      ],
+      "mode": "full",
+      "params": "/home/zijiand/cheddar/unittest/parameters/resnetparam_40.json",
+      "relu_range": 16.0,
+      "start": 0,
+      "weights": "/home/zijiand/cheddar/data/weights"
+    },
+    "bootstrap_config": {
+      "kind": "bootstrap_config",
+      "log_message_ratio": 5,
+      "output_level": 8
+    },
+    "last_image": 999,
+    "accuracy": {
+      "actual_accuracy": 0.925,
+      "classification_pass": true,
+      "count": 1000,
+      "evaluated_images": 1000,
+      "exact_accuracy": 0.926,
+      "invalid_images": 0,
+      "kind": "accuracy",
+      "polynomial_accuracy": 0.925,
+      "seconds": 1805.698986265,
+      "top1_agreement": 1.0
+    },
+    "summary": {
+      "failed_comparisons": 0,
+      "kind": "summary",
+      "pass": true
+    }
+  }
+]

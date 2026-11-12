@@ -37,6 +37,7 @@ class HoistHandler {
 
   int pt_level_;
   double pt_scale_;
+  bool rescale_output_;
 
   std::set<int> bs_indices_;
   std::vector<int> gs_indices_;
@@ -84,8 +85,12 @@ class HoistHandler {
                                   const EvkMap<word> &evk_map) const;
 
  public:
+  // With rescale_output=false, only remove the auxiliary base: the result
+  // retains pt_level and the product scale. The caller must rescale explicitly
+  // after any operations that should retain the product's extra precision.
   HoistHandler(ConstContextPtr<word> context, const PlainHoistMap &hoist_map,
-               int pt_level, double pt_scale, bool suppress_bs_swap = false);
+               int pt_level, double pt_scale, bool suppress_bs_swap = false,
+               bool rescale_output = true);
 
   HoistHandler(const HoistHandler &) = delete;
   HoistHandler &operator=(const HoistHandler &) = delete;
